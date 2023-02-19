@@ -1,1 +1,1 @@
-{"type":"data","nodes":[null,{"type":"data","data":[{"post":1},{"slug":2,"next":3,"previous":3},"Hello Again",0],"uses":{"params":["slug"]}}]}
+{"type":"data","nodes":[null,{"type":"data","data":[{"post":1},{"title":2,"date":3,"description":4,"globEntry":5,"slug":2,"next":6,"previous":6},"Hello Again","2023-02-19","Reintroduction to my website","{\"default\":{},\"metadata\":{\"title\":\"Hello Again\",\"date\":\"2023-02-19\",\"description\":\"Reintroduction to my website\"}}",0],"uses":{"params":["slug"]}}]}
