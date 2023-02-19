@@ -5,16 +5,20 @@
 	export let data: PageData;
 </script>
 
+<style>
+
+</style>
+
 <div>
 	<article>
 		<header>
 			<h1 class="text-4xl">{data.post.title}</h1>
-      <p>{data.post.date}</p>
+			<p>{data.post.date}</p>
 		</header>
-    <br>
+		<br />
 		<!-- render the post -->
-		<div>
-      <svelte:component this={data.component} />
+		<div class="text-left">
+			<svelte:component this={data.component} />
 		</div>
 	</article>
 </div>

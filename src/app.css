@@ -10,4 +10,19 @@
 
 p {
 	overflow-wrap: break-word;
+  padding-bottom: 1em;
+}
+
+h1 {
+  @apply text-2xl;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+ul{
+  list-style: inside;
+}
+ol{
+  list-style: inside;
+  list-style-type: decimal;
 }

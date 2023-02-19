@@ -3,7 +3,7 @@
 	let links = [
 		{ name: 'About', link: '/about' },
 		{ name: 'Blog', link: '/blog' },
-    { name: 'Projects', link: '/projects' },
+		{ name: 'Projects', link: '/projects' }
 	];
 </script>
 

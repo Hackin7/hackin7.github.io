@@ -12,10 +12,7 @@ const config = {
 			base: '' //process.env.NODE_ENV === "production" ? "/page" : "",
 		}
 	},
-	preprocess: [
-    vitePreprocess(),
-    mdsvex(mdsvexConfig),
-  ],
+	preprocess: [vitePreprocess(), mdsvex(mdsvexConfig)],
 	extensions: ['.svelte', ...mdsvexConfig.extensions]
 };
 
