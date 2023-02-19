@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.content{
-  margin-left: auto;
-  margin-right: auto;
-  width:60%;
+.content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
 }
 
 p {
-    overflow-wrap: break-word;
+	overflow-wrap: break-word;
 }

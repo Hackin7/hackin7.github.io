@@ -1,17 +1,16 @@
 <script>
-  import "../app.css";
-  import NavBar from '../components/NavBar.svelte';
+	import '../app.css';
+	import NavBar from '../components/NavBar.svelte';
 </script>
 
-<NavBar/>
-
+<NavBar />
 
 <div class="text-center pt-10 content">
-  <slot/>
+	<slot />
 </div>
 
 <style lang="postcss">
-  :global(html) {
-    background-color: theme(colors.gray.100);
-  }
+	:global(html) {
+		background-color: theme(colors.gray.100);
+	}
 </style>
