@@ -3,10 +3,9 @@ import type { PageLoad } from './$types';
 
 export const load: PageLoad = async ({ data }) => {
 	// load the markdown file based on slug
-	const component = await import(`../../../content/blog-posts/${data.post.slug}.md`);
-
+	const component = await import(`../../../content/projects/${data.project.slug}.md`);
 	return {
-		post: data.post,
+		post: data.project,
 		component: component.default,
 		layout: {
 			fullWidth: true

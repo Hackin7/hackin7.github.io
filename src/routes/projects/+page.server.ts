@@ -1,9 +1,9 @@
 // src/routes/+page.server.ts
-import { posts } from '$lib/posts';
+import { projects } from '$lib/markdown_content';
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async () => {
 	return {
-		posts // make posts available on the client
+		projects // make posts available on the client
 	};
 };

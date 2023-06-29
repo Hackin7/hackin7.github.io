@@ -1,18 +1,10 @@
 <script lang="ts">
 	import type { PageServerData } from './$types';
 	export let data: PageServerData;
-	let projects = [
-		{
-			name: 'Personal Website',
-			description: 'This website! Still a work in progress. Will want to add features!',
-			link: '/'
-		},
-		{
-			name: 'Not Pseudocode',
-			description: "Allows you to run Pseudocode following Cambridge's Standards",
-			link: 'https://hackin7.github.io/not-pseudocode/'
-		}
-	];
+	let projects = data.projects.map((item, index, arr) => ({
+		...item,
+		tagsSummary: item.tags.slice(0, 3)
+	}));
 </script>
 
 <!-- https://www.thisdot.co/blog/how-to-quickly-build-and-deploy-a-static-markdown-blog-with-sveltekit -->
@@ -37,13 +29,20 @@
 			</a>
 			<div class="p-5">
 				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-					{project.name}
+					{project.title}
 				</h5>
+				{#each project.tags.slice(0, 2) as tag}
+					<div
+						class="text-sm inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-amber-300 text-gray-800 rounded-full my-1 capitalize mr-1"
+					>
+						{tag}
+					</div>
+				{/each}
 				<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
 					{project.description}
 				</p>
 				<a
-					href={project.link}
+					href={`projects/${project.slug}`}
 					class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
 				>
 					Check it out!
@@ -62,7 +61,7 @@
 				</a>
 			</div>
 		</div>
-		<!--<a href={project.link} class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+		<!--<a href={`projects/${project.link}`} class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
         {project.name}
       </h5>

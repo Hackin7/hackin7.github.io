@@ -5,10 +5,6 @@
 	export let data: PageData;
 </script>
 
-<style>
-
-</style>
-
 <div>
 	<article>
 		<header>
@@ -22,3 +18,6 @@
 		</div>
 	</article>
 </div>
+
+<style>
+</style>

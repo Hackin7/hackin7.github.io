@@ -6,9 +6,8 @@
 <!-- https://www.thisdot.co/blog/how-to-quickly-build-and-deploy-a-static-markdown-blog-with-sveltekit -->
 <div class="text-left">
 	<h1 class="text-3xl font-bold underline">Blog</h1>
-	
+
 	<p>A list of my blog posts</p>
-	
 </div>
 <ul
 	class="list-none text-left text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white"

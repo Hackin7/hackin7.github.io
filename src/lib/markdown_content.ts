@@ -1,22 +1,9 @@
 // src/lib/server/posts.ts
-
 import { parse } from 'path';
 
-type GlobEntry = {
-	metadata: Post;
-	default: unknown;
-};
-
-export interface Post {
-	title: string;
-	description: string;
-	date: string;
-	category: object;
-}
-
 // Get all posts and add metadata
-export const posts = Object.entries(
-	import.meta.glob('/src/content/blog-posts/*.md', { eager: true })
+export const projects = Object.entries(
+	import.meta.glob<GlobEntry>('/src/content/projects/*.md', { eager: true })
 )
 	.map(([filepath, globEntry]) => {
 		return {

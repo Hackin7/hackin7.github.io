@@ -4,8 +4,8 @@ date: '2023-02-19'
 description: Reintroduction to my website
 ---
 
-I'm reimplementing some of my blog again. 
-My new personal goal for my website is to be able to better show off my 
+I'm reimplementing some of my blog again.
+My new personal goal for my website is to be able to better show off my
 skills and projects! Some ideas I have include
 
 1. PhaserJS/ Three.js interactivity
