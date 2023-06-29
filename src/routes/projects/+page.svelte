@@ -15,7 +15,7 @@
 	<br />
 </div>
 
-<div class="grid grid-cols-3 gap-4">
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
 	{#each projects as project}
 		<div
 			class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
@@ -23,7 +23,7 @@
 			<a href={project.link}>
 				<img
 					class="rounded-t-lg object-cover w-auto aspect-[9/5]"
-					src="https://flowbite.com/docs/images/blog/image-4.jpg"
+					src={project.cover}
 					alt=""
 				/>
 			</a>

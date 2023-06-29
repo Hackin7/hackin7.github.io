@@ -4,6 +4,7 @@ date: '2023-02-19'
 description: This website! Still a work in progress. Will want to add features!
 link: 'https://github.com/Hackin7/hackin7.github.io'
 tags: ['svelte', 'tailwind', 'github-pages']
+cover: 'https://flowbite.com/docs/images/blog/image-4.jpg'
 ---
 
 My new personal goal for my website is to be able to better show off my

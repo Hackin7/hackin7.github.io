@@ -12,7 +12,7 @@
 			<p>{data.post.date}</p>
 		</header>
 		<br />
-		{#each project.tags as tag}
+		{#each data.post.tags as tag}
 			<div
 				class="text-sm inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-amber-300 text-gray-800 rounded-full my-1 capitalize mr-1"
 			>
