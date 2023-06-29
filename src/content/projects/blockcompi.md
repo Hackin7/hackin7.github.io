@@ -1,7 +1,7 @@
 ---
 title: BlockComPi
 date: '2015-06'
-description: This website! Still a work in progress. Will want to add features!
+description: A Block of a Computer of a Raspberry Pi Phone
 link: 'https://github.com/Hackin7/BlockComPi'
 tags: ['+', 'Personal Project', 'Raspberry Pi', 'Python', 'Electronics', 'Casing']
 cover: 'https://raw.githubusercontent.com/Hackin7/BlockComPi/master/Images/DSC_4991.JPG'

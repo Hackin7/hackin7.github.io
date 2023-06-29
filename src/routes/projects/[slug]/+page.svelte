@@ -1,7 +1,7 @@
 <!-- src/routes/blog/[slug]/page.svelte -->
 <script lang="ts">
 	import type { PageData } from './$types';
-
+  import Tag from '../../../components/Tag.svelte';
 	export let data: PageData;
 </script>
 
@@ -11,16 +11,19 @@
 			<h1 class="text-4xl">{data.post.title}</h1>
 			<p>{data.post.date}</p>
 		</header>
-		<br />
 		{#each data.post.tags as tag}
-			<div
-				class="text-sm inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-amber-300 text-gray-800 rounded-full my-1 capitalize mr-1"
-			>
-				{tag}
-			</div>
+      <Tag name={tag}/>
 		{/each}
+    
+    
+    
 		<!-- render the post -->
-		<div class="text-left">
+		<div class="text-left prose max-w-none w-full">
+      <img
+        class="rounded object-contain w-full aspect-[9/5]"
+        src={data.post.cover}
+        alt=""
+      />
 			<svelte:component this={data.component} />
 		</div>
 
@@ -42,6 +45,7 @@
 				/></svg
 			>
 		</a>
+    <br/>
 	</article>
 </div>
 

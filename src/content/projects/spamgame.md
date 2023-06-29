@@ -1,10 +1,10 @@
 ---
-title: T
-date: '2023-02-19'
-description: t
-link: 'https://github.com/Hackin7/'
-tags: ['+']
-cover: 'https://flowbite.com/docs/images/blog/image-4.jpg'
+title: SpamGame
+date: '2018-08-30'
+description: Simple Reaction Game App to press a button as much as possible within 60s
+link: 'https://github.com/Hackin7/SpamGame'
+tags: ['Personal Project', 'Android', 'Arduino']
+cover: 'https://raw.githubusercontent.com/Hackin7/SpamGame/master/Images/FeatureGraphic.svg'
 ---
 
 

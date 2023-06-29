@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { PageServerData } from './$types';
+  import Tag from '../../components/Tag.svelte';
 	export let data: PageServerData;
 	let projects = data.projects.map((item, index, arr) => ({
 		...item,
@@ -32,11 +33,7 @@
 					{project.title}
 				</h5>
 				{#each project.tags.slice(0, 2) as tag}
-					<div
-						class="text-sm inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-amber-300 text-gray-800 rounded-full my-1 capitalize mr-1"
-					>
-						{tag}
-					</div>
+					<Tag name={tag}/>
 				{/each}
 				<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
 					{project.description}

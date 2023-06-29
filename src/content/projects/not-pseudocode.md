@@ -4,7 +4,7 @@ date: '2021-03-05'
 description: Allows you to run Pseudocode following Cambridge's Standards
 link: 'https://github.com/Hackin7/not-pseudocode'
 tags: ['Skills', 'Python', 'Interpreter']
-cover: 'https://flowbite.com/docs/images/blog/image-4.jpg'
+cover: '/projects/not-pseudocode.png'
 ---
 
 This is a program that makes pseudocode Not Pseudocode. It converts Pseudocode meeting the A Level specifications to Python code. You can also run it I guess (with a non-existent standard library).
