@@ -24,7 +24,7 @@
 			<a href={project.link}>
 				<img
 					class="rounded-t-lg object-cover w-auto aspect-[9/5]"
-					src={project.cover}
+					src={Array.isArray(project.cover) ? project.cover[0] : project.cover}
 					alt=""
 				/>
 			</a>

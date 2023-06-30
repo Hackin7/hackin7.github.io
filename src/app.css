@@ -8,7 +8,13 @@
 	width: 60%;
 }
 
-p {
+@media screen and (max-width: 600px){
+    .content{
+        width: 90%;
+    }
+}
+
+/*p {
 	overflow-wrap: break-word;
 	padding-bottom: 1em;
 }
@@ -25,4 +31,4 @@ ul {
 ol {
 	list-style: inside;
 	list-style-type: decimal;
-}
+}*/

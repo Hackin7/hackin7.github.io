@@ -2,6 +2,9 @@
 <script lang="ts">
 	import type { PageData } from './$types';
   import Tag from '../../../components/Tag.svelte';
+  import GSlides from '../../../components/GSlides.svelte';
+  import Youtube from '../../../components/Youtube.svelte';
+
 	export let data: PageData;
 </script>
 
@@ -19,11 +22,34 @@
     
 		<!-- render the post -->
 		<div class="text-left prose max-w-none w-full">
+
+      {#if !Array.isArray(data.post.cover)}
       <img
         class="rounded object-contain w-full aspect-[9/5]"
-        src={data.post.cover}
+        src={Array.isArray(data.post.cover) ? data.post.cover[0]: data.post.cover}
         alt=""
       />
+      {:else if data.post.cover.reduce(
+  (accumulator, currentValue) => 
+  currentValue.includes("https://docs.google.com/presentation") ?
+ true : accumulator,
+  false)}
+      <GSlides src={data.post.cover.reduce(
+  (accumulator, currentValue) =>
+  currentValue.includes("https://docs.google.com/presentation") ?
+ currentValue : accumulator,
+  false)} />
+      {:else if data.post.cover.reduce(
+  (accumulator, currentValue) =>
+  currentValue.includes("https://www.youtube.com/embed/") ?
+ true : accumulator,
+  false)}
+      <Youtube src={data.post.cover.reverse().reduce(
+  (accumulator, currentValue) =>
+  currentValue.includes("https://www.youtube.com/embed/") ?
+ currentValue : accumulator,
+  false)} />
+      {/if}
 			<svelte:component this={data.component} />
 		</div>
 
