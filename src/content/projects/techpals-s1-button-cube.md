@@ -8,6 +8,7 @@ cover: 'https://media.discordapp.net/attachments/1023621584138801243/11238729199
 ---
 
 Consists of 2 parts
+
 1. Cube with buttons (each with a specific shape). Contains a Microbit & a battery
 2. Another microbit as the patent controller
 

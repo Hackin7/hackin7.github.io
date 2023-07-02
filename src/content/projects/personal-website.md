@@ -3,7 +3,7 @@ title: Personal Website
 date: '2023-02-19'
 description: This website! Still a work in progress. Will want to add features!
 link: 'https://github.com/Hackin7/hackin7.github.io'
-tags: ['Personal Project', "Web", 'svelte', 'tailwind', 'github-pages']
+tags: ['Personal Project', 'Web', 'svelte', 'tailwind', 'github-pages']
 cover: '/projects/website.png'
 ---
 

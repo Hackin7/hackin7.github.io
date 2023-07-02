@@ -4,7 +4,12 @@ date: '2022-07'
 description: An app to help you reduce food waste just by taking a photo of it!
 link: 'https://devpost.com/software/zero-waste-fhdci8'
 tags: ['Team Project', 'Event', 'React Native', 'Tensorflow', 'Computer Vision']
-cover: ['/projects/zero-waste.jpg', 'https://www.youtube.com/embed/JB-Vtf8kyYs', 'https://www.youtube.com/embed/9FQ9oITiajs']
+cover:
+  [
+    '/projects/zero-waste.jpg',
+    'https://www.youtube.com/embed/JB-Vtf8kyYs',
+    'https://www.youtube.com/embed/9FQ9oITiajs'
+  ]
 ---
 
 ## Inspiration

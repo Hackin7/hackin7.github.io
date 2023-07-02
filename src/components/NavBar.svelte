@@ -2,7 +2,7 @@
 	import { page } from '$app/stores';
 	let links = [
 		{ name: 'About', link: '/about' },
-    { name: 'Experiences', link: '/experiences' },
+		{ name: 'Experiences', link: '/experiences' },
 		{ name: 'Blog', link: '/blog' },
 		{ name: 'Projects', link: '/projects' }
 	];

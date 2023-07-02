@@ -8,10 +8,10 @@
 	width: 60%;
 }
 
-@media screen and (max-width: 600px){
-    .content{
-        width: 90%;
-    }
+@media screen and (max-width: 600px) {
+	.content {
+		width: 90%;
+	}
 }
 
 /*p {

@@ -27,11 +27,11 @@ Components needed to build:
 1. Adafruit PiTFT 2.8 resistive
 1. Adafruit FONA 2G (could use 3G but have to modify the design a bit)
 1. Earphones with Mic
-1. 5V boost converter 
+1. 5V boost converter
 1. 2000mah or so battery from phone
-1. Buttons,  Female Headers, Diode
+1. Buttons, Female Headers, Diode
 1. Wires and a PCB to connect everything together
-1. White Acrylic Case with PLA filament from 3Doodler to connect the pieces together 
+1. White Acrylic Case with PLA filament from 3Doodler to connect the pieces together
 1. Wooden Back Plate
 1. Black Stylus (Nintendo DS)
 1. Buzzer (For Notifications) (connects through expansion port)
@@ -44,7 +44,7 @@ Software:
 1. garthvh's menu_8button.py is under no license, and has been adapted into PitftGraphicLib.py for easier use with PyGame in my code
 1. No Bitmaps or images used
 1. Note that virtual keyboard, licensed under the GNU GPL, is included, used, and has not been modified.
-1. The Main Menu, Notifcentral.py, has a Notifications  and Service system and an App drawer which layout apps as in App.py
+1. The Main Menu, Notifcentral.py, has a Notifications and Service system and an App drawer which layout apps as in App.py
 1. Can actually Receive and send Phone Calls and SMS through Notifications and Service System
 1. The Apps included are, Phone, Messages (just something that sends Messages), Contacts, Camera, X11 and Tab Mode.
 1. The ones coded my me are Phone (just a dialer ), Messages (just something that sends Messages), Contacts (stores contacts in config file

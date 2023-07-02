@@ -4,7 +4,11 @@ date: '2021-09-01'
 description: SPG Emulator on Android (Port of ununium)
 link: 'https://github.com/Hackin7/SonnyDroid'
 tags: ['Highlight', 'Android', 'Java Native Interface', 'Java', 'Personal Project']
-cover: ['https://github.com/Hackin7/SonnyDroid/blob/master/Icons/banner.png?raw=true', 'https://www.youtube.com/embed/yGX4n0eVDD0']
+cover:
+  [
+    'https://github.com/Hackin7/SonnyDroid/blob/master/Icons/banner.png?raw=true',
+    'https://www.youtube.com/embed/yGX4n0eVDD0'
+  ]
 ---
 
 A port of ununium (Sunplus emulator) to Android, Made in Java and C++, using the Android NDK.

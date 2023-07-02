@@ -3,10 +3,9 @@ title: Footercize
 date: '2019-06'
 description: Pressing on the foot press would bloom a flower on the LED Matrix, motivating the Elderly to Exercise.
 link: 'https://gist.github.com/Hackin7/03133c4274d6e8cbf813ec797aa61494'
-tags: ['Deployed', "Electronics", 'Microbit', 'Arduino', 'WS2812']
+tags: ['Deployed', 'Electronics', 'Microbit', 'Arduino', 'WS2812']
 cover: 'https://media.discordapp.net/attachments/1023621584138801243/1124026646404534362/DSC_0340.jpg'
 ---
-
 
 Designed a case using MakeCase. Handled the Electronic Wiring, Coding, and rough conceptualisation.
 
