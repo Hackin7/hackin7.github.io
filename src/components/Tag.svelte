@@ -1,8 +1,11 @@
 <script>
   export let name;
   let colour='bg-amber-300';
-  if (["Personal Project", "Event"].includes(name)){
+  if (["Team Project","Personal Project", "Event"].includes(name)){
     colour = 'bg-green-300';
+  }
+  if (["Deployed","Award Winning", "Highlight"].includes(name)){
+    colour = 'bg-red-300';
   }
 
 </script>

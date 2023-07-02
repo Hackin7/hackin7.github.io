@@ -3,7 +3,7 @@ title: AndWhyJayCee
 date: '2019-03-17'
 description: A website to help know more about the condition of indigenous languages.
 link: 'https://github.com/andwhyjaycee/andwhyjaycee'
-tags: ['+']
+tags: ['Event', 'Team Project', 'Flask']
 cover: 'https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/000/781/505/datas/gallery.jpg'
 ---
 

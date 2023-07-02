@@ -3,7 +3,7 @@ title: Not Pseudocode
 date: '2021-03-05'
 description: Allows you to run Pseudocode following Cambridge's Standards
 link: 'https://github.com/Hackin7/not-pseudocode'
-tags: ['Skills', 'Python', 'Interpreter']
+tags: ['Highlight', 'Python', 'Interpreter']
 cover: '/projects/not-pseudocode.png'
 ---
 

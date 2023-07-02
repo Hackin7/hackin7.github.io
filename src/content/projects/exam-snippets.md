@@ -12,3 +12,5 @@ An educational quiz made to provide (random) examination questions. It's meant t
 Just a Personal Project to test the MEAN/MEVN stack
 
 Since I have finished Secondary School and Junior College I probably won't be updating this website any longer with new features or questions. Feel free to make any pull requests or anything or copy the idea!
+
+Used by my friends and I for studying for 2018  O Levels/ 2020 A Levels
