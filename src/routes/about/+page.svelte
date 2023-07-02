@@ -4,7 +4,7 @@
 
 <h1 class="text-3xl text-left font-bold underline">About Me</h1>
 
-<div class="text-left">
+<div class="text-left prose max-w-none">
 	<p>
 		I have always liked tinkering when computers and electronics when I was in Primary School, such
 		as playing around with Linux on my Computer. In Primary 5, I started getting into electronics

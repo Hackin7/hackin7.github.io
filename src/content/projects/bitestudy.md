@@ -11,8 +11,9 @@ cover: ['/projects/bitestudy.png', 'https://docs.google.com/presentation/d/e/2PA
 frameborder="0" style="width: 50em; height:30em;"  allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 -->
 
-Made for the DSTA CodeEXP 2021 Hackathon. Done mainly in army camp.
+Made for the DSTA CodeEXP 2021 Hackathon and won [Top 8 (Finalist)](https://certificates.nextid.com/certificate?id=d91b793d-7a54-4cbd-8a40-48de10ac6530). 
+Done mainly in army camp.
 Uses Expo Go
 
-<div data-snack-id="@hackin7/bitestudy" data-snack-platform="web" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#F9F9F9;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
-<script async src="https://snack.expo.dev/embed.js"></script>
+<!--<div data-snack-id="@hackin7/bitestudy" data-snack-platform="web" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#F9F9F9;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
+<script async src="https://snack.expo.dev/embed.js"></script>-->

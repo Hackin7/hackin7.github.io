@@ -14,9 +14,10 @@ You can create, save, and play 8x8 Pixel Art Animations on the LED Matrix.
 Sample code of the web platform is available here. Full code (allowing
 you to save animations on the server) is on Github
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="xMbrzp" data-user="Hackin7" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/Hackin7/pen/xMbrzp">
-  Pixel Art</a> by Terence Chan Zun Mun (<a href="https://codepen.io/Hackin7">@Hackin7</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<iframe 
+  title="Preview of Embedded Pen" 
+  class="EmbedModalPreview-module_iframe-I2vBS" 
+  frameborder="0" 
+  src="https://codepen.io/Hackin7/embed/xMbrzp?default-tab=html%2Cresult" 
+  style="height: 300px; width: 100%;"
+></iframe>

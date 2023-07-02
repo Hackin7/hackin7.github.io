@@ -3,10 +3,11 @@ title: AndWhyJayCee
 date: '2019-03-17'
 description: A website to help know more about the condition of indigenous languages.
 link: 'https://github.com/andwhyjaycee/andwhyjaycee'
-tags: ['Event', 'Team Project', 'Flask']
-cover: 'https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/000/781/505/datas/gallery.jpg'
+tags: ['Event', 'Team Project', 'Web', 'Flask']
+cover: ['https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/000/781/505/datas/gallery.jpg',
+        "https://www.youtube.com/embed/TnlAqwxMoxk",
+        ]
 ---
-
 
 AndWhyJayCee is a website to help know more about the condition of indigenous languages. This website has 3 main functions
 

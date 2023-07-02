@@ -4,7 +4,7 @@
 </script>
 
 <!-- https://www.thisdot.co/blog/how-to-quickly-build-and-deploy-a-static-markdown-blog-with-sveltekit -->
-<div class="text-left">
+<div class="text-left prose">
 	<h1 class="text-3xl font-bold underline">Blog</h1>
 
 	<p>A list of my blog posts</p>

@@ -4,7 +4,9 @@ date: '2018-04-23'
 description: This is a binary/hexadecimal conversion game I made to teach others about binary. 
 link: 'https://www.instructables.com/Binary-Switch-Game/'
 tags: ['Personal Project', 'Arduino', 'Electronics', 'Casing']
-cover: 'https://content.instructables.com/FVG/O7Z3/JG7565A6/FVGO7Z3JG7565A6.jpg'
+cover: ['https://content.instructables.com/FVG/O7Z3/JG7565A6/FVGO7Z3JG7565A6.jpg', 
+        "https://www.youtube.com/embed/oTl21zP2PLs",
+        ]
 ---
 
 Inspired by Ben Heck's Hex Game

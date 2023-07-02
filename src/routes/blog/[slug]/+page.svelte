@@ -13,10 +13,11 @@
 		</header>
 		<br />
 		<!-- render the post -->
-		<div class="text-left">
+		<div class="text-left prose max-w-none">
 			<svelte:component this={data.component} />
 		</div>
 	</article>
+  <br/>
 </div>
 
 <style>

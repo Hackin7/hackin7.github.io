@@ -1,11 +1,25 @@
 <script lang="ts">
 	import type { PageServerData } from './$types';
-  import Tag from '../../components/Tag.svelte';
+  import Tag, { tagCat, tagPriority, tagSort } from '../../components/Tag.svelte';
 	export let data: PageServerData;
 	let projects = data.projects.map((item, index, arr) => ({
 		...item,
-		tagsSummary: item.tags.slice(0, 3)
 	}));
+  projects.sort((a, b)=>{
+    let getCat = (a) => a.tags.reduce((accumulator, currentValue) => {
+      let cat = tagCat(currentValue)
+      if (tagPriority(accumulator, cat) > 0){return cat;}
+      return accumulator;
+    });
+    let catA = getCat(a);
+    let catB = getCat(b);
+    
+    let sort1 = tagPriority(catA, catB);
+    /*if (sort1==0){
+      return b.tags.include("Deployed") - a.tags.include("Deployed") 
+    }*/
+    return sort1;
+  });
 </script>
 
 <!-- https://www.thisdot.co/blog/how-to-quickly-build-and-deploy-a-static-markdown-blog-with-sveltekit -->
@@ -14,49 +28,57 @@
 	<br />
 	<div>Some things I have done</div>
 	<br />
+  <table class="shadow-lg bg-white rounded-lg font-normal">
+    <!--dark:bg-gray-800 dark:border-gray-700
+      text-gray-700 dark:text-gray-200-->
+    <tr class="font-bold">
+      <td class="border px-3 py-2">Tag</td> <td class="border px-2 py-2">Meaning</td>
+    </tr>
+    <tr>
+      <td class="border px-2 py-2"><Tag name="Deployed"/></td> <td class="border px-2 py-2">Used/ Being used by other people</td>
+    </tr>
+    <tr>
+      <td class="border px-2 py-2 w-30"><Tag name="Award Winning"/></td> <td class="border px-2 py-2">Won an award (eg. Top 8 in a Hackathon)</td>
+    </tr>
+    <tr>
+      <td class="border px-2 py-2"><Tag name="Highlight"/></td> <td class="border px-2 py-2">Uses a concept not easily researched on/found (eg. Form automation on phone), or may be more technically challenging</td>
+    </tr>
+  </table>
+	<br />
 </div>
 
 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
 	{#each projects as project}
 		<div
-			class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
-		>
-			<a href={project.link}>
+			class="max-w-sm bg-white border border-gray-200 rounded-lg shadow"
+		><!--dark:bg-gray-800 dark:border-gray-700-->
+			<a href={`projects/${project.slug}`}>
 				<img
-					class="rounded-t-lg object-cover w-auto aspect-[9/5]"
-					src={Array.isArray(project.cover) ? project.cover[0] : project.cover}
+					class="rounded-t-lg object-cover w-full aspect-[9/5]"
+					src={
+            Array.isArray(project.cover) 
+            ? 
+            project.cover.filter(
+              (currValue, index, arr) =>
+                !currValue.includes("https://www.youtube.com/embed/")
+            )[0] 
+            : 
+            project.cover
+          }
 					alt=""
 				/>
+        <div class="p-5">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900"><!-- dark:text-white -->
+            {project.title}
+          </h5>
+          {#each tagSort(project.tags).slice(0, 3) as tag}
+            <Tag name={tag}/>
+          {/each}
+          <p class="mb-3 font-normal text-gray-700"> <!--dark:text-gray-400-->
+            {project.description}
+          </p>
+        </div>
 			</a>
-			<div class="p-5">
-				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-					{project.title}
-				</h5>
-				{#each project.tags.slice(0, 2) as tag}
-					<Tag name={tag}/>
-				{/each}
-				<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-					{project.description}
-				</p>
-				<a
-					href={`projects/${project.slug}`}
-					class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-				>
-					Check it out!
-					<svg
-						aria-hidden="true"
-						class="w-4 h-4 ml-2 -mr-1"
-						fill="currentColor"
-						viewBox="0 0 20 20"
-						xmlns="http://www.w3.org/2000/svg"
-						><path
-							fill-rule="evenodd"
-							d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-							clip-rule="evenodd"
-						/></svg
-					>
-				</a>
-			</div>
 		</div>
 		<!--<a href={`projects/${project.link}`} class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">

@@ -37,6 +37,7 @@
 	"type": "module",
 	"dependencies": {
 		"@rodneylab/svelte-social-icons": "^0.0.25",
-		"@sveltejs/adapter-static": "^2.0.1"
+		"@sveltejs/adapter-static": "^2.0.1",
+		"flowbite": "^1.6.6"
 	}
 }

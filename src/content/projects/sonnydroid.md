@@ -3,11 +3,11 @@ title: SonnyDroid
 date: '2021-09-01'
 description: SPG Emulator on Android (Port of ununium)
 link: 'https://github.com/Hackin7/SonnyDroid'
-tags: ['Highlight', 'Android', 'Java', 'Java Native Interface', 'Personal Project']
+tags: ['Highlight', 'Android', 'Java Native Interface', 'Java', 'Personal Project']
 cover: ['https://github.com/Hackin7/SonnyDroid/blob/master/Icons/banner.png?raw=true', 'https://www.youtube.com/embed/yGX4n0eVDD0']
 ---
 
-This is a Sunplus emulator for Android based on unununium.
+A port of ununium (Sunplus emulator) to Android, Made in Java and C++, using the Android NDK.
 Right now, it is only tested to work with Vii Sports
 
 The source code is available at https://github.com/Hackin7/SonnyDroid
