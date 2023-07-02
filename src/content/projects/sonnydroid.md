@@ -7,7 +7,8 @@ tags: ['Highlight', 'Android', 'Java Native Interface', 'Java', 'Personal Projec
 cover:
   [
     'https://github.com/Hackin7/SonnyDroid/blob/master/Icons/banner.png?raw=true',
-    'https://www.youtube.com/embed/yGX4n0eVDD0'
+    'https://www.youtube.com/embed/yGX4n0eVDD0', 
+    'https://docs.google.com/presentation/d/e/2PACX-1vTNWFY9xcWUen6UumEl9v5nzOU8mvpnTjPZkvpr6Qzkl_5w2ktOTc5BxiqrHdO2KCLoXU0agLtQB0IU/embed?start=false&loop=false&delayms=3000',
   ]
 ---
 

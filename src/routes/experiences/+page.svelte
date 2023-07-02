@@ -5,11 +5,11 @@
 <h1 class="text-3xl text-left font-bold underline">Work Experience</h1>
 <div class="text-left prose max-w-none">
 	<div class="flex flex-row">
-		<img
+		<!--<img
 			class="rounded-t-lg object-cover w-20 h-10"
 			src="https://www.dsta.gov.sg/images/default-source/revamp/dsta_logoea8a31700a1d6b0c895eff0000f6c7a3.svg?sfvrsn=1f975adf_2"
 			alt=""
-		/>
+		/>-->
 		<div>
 			<h2 id="2019-2020">DSTA Internship: Apr-July 2023</h2>
 			<p>Worked on the Sensor Systems in the Drone Versus Drone Project. This includes</p>
