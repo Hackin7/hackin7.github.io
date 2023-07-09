@@ -14,20 +14,19 @@ People who exercise generally take better care of themselves, both in terms of d
 **Solution**
 
 We designed an attachment (graphic matrix display) to the existing foot press exercise equipment to have visual stimulation to encourage patients to exercise.
-It uses a WS2812 LED Matrix (LEDs are chained up together to form a matrix), 
-an Ultrasonic sensor to interface with existing foot press exercise equipment, 
-and a Microbit running code compiled from the Arduino IDE. 
+It uses a WS2812 LED Matrix (LEDs are chained up together to form a matrix),
+an Ultrasonic sensor to interface with existing foot press exercise equipment,
+and a Microbit running code compiled from the Arduino IDE.
 Front of the Device is Acrylic, and the rest of the casing is made of wood, laser cut.
 
 Handled the Electronic Wiring, Coding, and rough conceptualisation.
 
 **How It Works**
 
-1. When the  Foot Slider is pushed, it will trigger an ultrasonic sensor and the counter will increase.
+1. When the Foot Slider is pushed, it will trigger an ultrasonic sensor and the counter will increase.
 1. Every 5 counts, part of the LED graphic matrix will be light up.
-1. When it counts to 20, the display will show a preprogrammed graphic flower. 
+1. When it counts to 20, the display will show a preprogrammed graphic flower.
 1. At any point of time, the patient stop exercising, for more than 60 sec, there will be a graphic display to encourage patient to continue.
-
 
 **Deployed in Sparkle Care@Simei**
 

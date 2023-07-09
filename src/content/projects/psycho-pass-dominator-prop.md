@@ -12,6 +12,6 @@ cover:
 ---
 
 This dominator prop to be able to transform from a Non-Lethal Paralyser
-into the Lethal Eliminator Mode, play the appropriate sounds. It can also detect people's faces to give a crime coefficient, though not very fast. 
+into the Lethal Eliminator Mode, play the appropriate sounds. It can also detect people's faces to give a crime coefficient, though not very fast.
 
 It does this with a Raspberry Pi Pico, Servos, WS2812 LEDs and more.

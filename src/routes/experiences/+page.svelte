@@ -1,7 +1,14 @@
-<script>
+<script lang="ts">
 	import SocialIcons from '@rodneylab/svelte-social-icons';
+	import type { PageServerData } from './$types';
+	import Tag, { tagCat, tagPriority, tagSort } from '../../components/Tag.svelte';
+	export let data: PageServerData;
+	let experiences = data.experiences.map((item, index, arr) => ({
+		...item
+	}));
 </script>
 
+{JSON.stringify(experiences)}
 <h1 class="text-3xl text-left font-bold underline">Work Experience</h1>
 <div class="text-left prose max-w-none">
 	<div class="flex flex-row">
@@ -152,3 +159,8 @@
 	</ul>
 </div>
 <br />
+
+{#each experiences as experience}
+  {JSON.stringify(experience)}
+  <svelte:component this={experience.default} />
+{/each}
