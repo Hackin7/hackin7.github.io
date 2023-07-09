@@ -12,25 +12,28 @@ cover: 'https://flowbite.com/docs/images/blog/image-4.jpg'
 12 April 2021 - 4 November 2022
 
 Was posted to Officer Cadet School, "Charlie" Wing. Handled various proceedings of stores & rations for the Officer Cadet's various training and conducts. This includes
-1. Store IC: Indenting, Loaning, and Managing various field equipment & ceremonial stores/uniforms needed for conducts/exercises/ceremonial events such as Ex Crescendo(Thailand), Commissioning Parade.   
+
+1. Store IC: Indenting, Loaning, and Managing various field equipment & ceremonial stores/uniforms needed for conducts/exercises/ceremonial events such as Ex Crescendo(Thailand), Commissioning Parade.
 2. Ration IC: Indenting fresh and combat rations, snacks, drinks, Local and Overseas
-3. Store IC & Vehicle Commander for various outfields including Ex Crescendo (Thailand): Setting up stores, as well as delivering rations/ice/water/safety stores needed for various back to back conducts and outfield 
+3. Store IC & Vehicle Commander for various outfields including Ex Crescendo (Thailand): Setting up stores, as well as delivering rations/ice/water/safety stores needed for various back to back conducts and outfield
 4. Liased with various stakeholders & planned months ahead to ensure smooth flow of logistics. Led a team of about 5-10 people to handle these logistics proceedings.
 5. Improved various store processes
-    - Used Microsoft Excel to ensure store accountability & speed up indents 
-    - Made mobile applications to improve submissions of parade state & ration indents
+   - Used Microsoft Excel to ensure store accountability & speed up indents
+   - Made mobile applications to improve submissions of parade state & ration indents
 
 2021
+
 - IPPT Silver - June
 - Promoted to Lance Corporal (LCP) - 16 August
 - Advance TrainFire Program Support (ATP) Pass - October
 - SAFTI International Cadet Conference (SICC) Coin - For supporting SICC in November
 
-2022 
+2022
+
 - OCS Instructor Recognition Day Best NSF Award - January
 - IPPT Gold - 1 April
 - Promoted to Corporal - 16 April
-- Participated in Exercise Crescendo (Thailand), First OCS Overseas Trip since Covid  - June
+- Participated in Exercise Crescendo (Thailand), First OCS Overseas Trip since Covid - June
 - Promoted to Corporal First Class - 1 August
 - ATP (Support) 28/36 Pass - 12 August
 - Combat Shoot (Support) Marksman - 7 September

@@ -161,6 +161,6 @@
 <br />
 
 {#each experiences as experience}
-  {JSON.stringify(experience)}
-  <svelte:component this={experience.default} />
+	{JSON.stringify(experience)}
+	<svelte:component this={experience.default} />
 {/each}

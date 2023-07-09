@@ -12,6 +12,7 @@ Subjects Taken:
 English, Chinese, Humanities(Social Studies, Geography), Mathematics, Additional Mathematics, Physics, Chemistry, Computing
 
 Chung Cheng Academic Affirmation/ Roll of Honour Award:
+
 - Principal's List: 2018, 2016, 2015
 - Head's List: Top Performer in Physics (2018), Computing (2017), Mathematics (2016), Science (Express) (2015)
 - 2015 Academic Colours Award for Value-Added Results
@@ -19,10 +20,12 @@ Chung Cheng Academic Affirmation/ Roll of Honour Award:
 - Chung Wei Liang Mathematics Award: Excellent Mathematics achievements (Sec 2) in 2016
 
 National Education Ambassador (2016-2018)
+
 - Helped out in engagement events to increase awareness about terrorism/ racism
 - Completed the Total Defence (Bronze) Badge Programme
 
 Participated in many academic and computing-related activities, such as
+
 - BuildingBloCS (2017): 1st place
 - EUREKA Competition (2017)
 - Singapore Junior Physics/Chemistry Olympiad (2018)

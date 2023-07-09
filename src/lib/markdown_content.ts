@@ -28,18 +28,18 @@ export const experiences = Object.entries(
 	.map(([filepath, globEntry]) => {
 		return {
 			...globEntry.metadata,
-      filepath,
+			filepath,
 			globEntry: JSON.stringify(globEntry),
 			// generate the slug from the file path
 			slug: parse(filepath).name,
-      component: import(filepath).default,
+			component: import(filepath).default
 		};
 	})
 	// sort by date
 	.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 	// add references to the next/previous post
 	.map((post, index, allPosts) => ({
-		...post,
+		...post
 		//next: allPosts[index - 1] || 0,
 		//previous: allPosts[index + 1] || 0
 	}));
