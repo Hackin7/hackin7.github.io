@@ -1,0 +1,16 @@
+// src/routes/+page.server.ts
+import { experiences } from '$lib/markdown_content';
+import type { PageLoad } from './$types';
+
+export const load: PageLoad = async ({data}) => {
+	return {experiences: experiences};
+	/*return {
+		experiences: experiences.map((item)=>{
+			return item; return {
+				...item,
+				//component: import(item.filepath),
+			};
+		})
+                 // make posts available on the client
+	};*/
+};

@@ -32,7 +32,7 @@ export const experiences = Object.entries(
 			globEntry: JSON.stringify(globEntry),
 			// generate the slug from the file path
 			slug: parse(filepath).name,
-			component: import(filepath).default
+			//component: import(filepath).default
 		};
 	})
 	// sort by date

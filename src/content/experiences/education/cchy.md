@@ -5,6 +5,7 @@ date: '2023-02-19'
 description: t
 link: 'https://github.com/Hackin7/'
 tags: ['+']
+logo: 'https://www.chungchenghighyishun.moe.edu.sg/images/CCHS(YISHUN)%20logo.jpg'
 cover: 'https://flowbite.com/docs/images/blog/image-4.jpg'
 ---
 

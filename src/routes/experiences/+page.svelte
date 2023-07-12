@@ -3,12 +3,34 @@
 	import type { PageServerData } from './$types';
 	import Tag, { tagCat, tagPriority, tagSort } from '../../components/Tag.svelte';
 	export let data: PageServerData;
-	let experiences = data.experiences.map((item, index, arr) => ({
-		...item
+	
+	let content = null;
+	import("../../../src/content/experiences/education/cchy.md").then((x)=>{
+		content= x.default;
+	});
+	
+	let experiences = data.experiences
+	let prep =async () => {
+	let components = [];
+        for (let i in data.experiences){
+                let item = data.experiences[i];
+                let filepath = "../../.."+item.filepath;
+                filepath = "../../../src/content/experiences/education/cchy.md";
+                let component = await import(filepath);
+                console.log(component);
+                components.push(component.default);
+        }
+	experiences = data.experiences.map((item, index, arr) => ({
+		...item,
+		component: components[index],
 	}));
+	};
+	prep();
 </script>
 
-{JSON.stringify(experiences)}
+{JSON.stringify(data.experiences)}
+{content}
+<svelte:component this={content} />
 <h1 class="text-3xl text-left font-bold underline">Work Experience</h1>
 <div class="text-left prose max-w-none">
 	<div class="flex flex-row">
@@ -160,7 +182,15 @@
 </div>
 <br />
 
+<h1 class="text-3xl text-left font-bold underline">Education</h1>
+<div class="text-left prose max-w-none">
 {#each experiences as experience}
-	{JSON.stringify(experience)}
-	<svelte:component this={experience.default} />
+	<img
+          class="rounded-t-lg object-cover w-20 h-10"
+          src={experience.logo}
+          alt=""
+        />
+	<h2>{experience.title}</h2>
+	<svelte:component this={experience.component} />
 {/each}
+</div>
