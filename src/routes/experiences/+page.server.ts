@@ -7,7 +7,7 @@ export const load: PageServerLoad = async () => {
 	for (let i in experiences){
 		let item = experiences[i];
 		let filepath = "../../.."+item.filepath;
-		filepath = "../../../src/content/experiences/education/cchy.md";
+		//filepath = "../../../src/content/experiences/education/cchy.md";
 		let component = await import(filepath).default;
 		console.log(component);
 		components.push(component);

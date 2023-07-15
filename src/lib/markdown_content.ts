@@ -23,7 +23,7 @@ export const projects = Object.entries(
 	}));
 
 export const experiences = Object.entries(
-	import.meta.glob<GlobEntry>('/src/content/experiences/*/*.md', { eager: true })
+	import.meta.glob<GlobEntry>('/src/content/experiences/*.md', { eager: true })
 )
 	.map(([filepath, globEntry]) => {
 		return {
@@ -36,7 +36,7 @@ export const experiences = Object.entries(
 		};
 	})
 	// sort by date
-	.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+	.sort((a, b) => new Date(b.start_date).getTime() - new Date(a.start_date).getTime())
 	// add references to the next/previous post
 	.map((post, index, allPosts) => ({
 		...post
