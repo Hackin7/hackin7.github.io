@@ -1,12 +1,36 @@
-<script lang="ts">                                                                  import SocialIcons from '@rodneylab/svelte-social-icons';                   import type { PageServerData } from './$types';                             import Tag, { tagCat, tagPriority, tagSort } from '../../components/Tag.svelte';
-        export let data: PageServerData;                                                                                                                        /*let content = null;                                                       import("../../../src/content/experiences/education/cchy.md").then((x)=>{                                                                                        content= x.default;                                                 });*/                                                                                                                                                   let experiences = data.experiences
-        let prep =async () => {
-                                                     let components = [];                                                        for (let i in data.experiences){                                                    let item = data.experiences[i];                                             let filepath = "../../.."+item.filepath;                
-let component = await import(filepath);          
-console.log(component);
-                components.push(component.default);                                 }                                                                           experiences = data.experiences.map((item, index, arr) => ({                         ...item,                                                                    component: components[index],                                       }));                                                                        };                                                                          prep();
+<script lang="ts">
+	import SocialIcons from '@rodneylab/svelte-social-icons';
+	import type { PageServerData } from './$types';
+	import Tag, { tagCat, tagPriority, tagSort } from '../../components/Tag.svelte';
+	export let data: PageServerData;
+	/*let content = null;                                                       import("../../../src/content/experiences/education/cchy.md").then((x)=>{                                                                                        content= x.default;                                                 });*/ let experiences =
+		data.experiences;
+	let prep = async () => {
+		let components = [];
+		for (let i in data.experiences) {
+			let item = data.experiences[i];
+			let filepath = '../../..' + item.filepath;
+			let component = await import(filepath);
+			console.log(component);
+			components.push(component.default);
+		}
+		experiences = data.experiences.map((item, index, arr) => ({
+			...item,
+			component: components[index]
+		}));
+	};
+	prep();
 </script>
 
 <h1 class="text-3xl text-left font-bold underline">Education</h1>
-<div class="text-left prose max-w-none">                                    {#each experiences as experience}                                                   <div class="md:flex md:flex-row">                                           <img                                                                          class="rounded-t-lg object-contain h-20"                                    src={experience.logo}                                                       alt=""                                                                    />
-        <div>                                                                               <h2>{experience.title}</h2>                                                 <svelte:component this={experience.component} />                    </div>                                                              </div>                                                                      {/each}                                                                     </div>
+<div class="text-left prose max-w-none">
+	{#each experiences as experience}
+		<div class="md:flex md:flex-row">
+			<img class="rounded-t-lg object-contain h-20" src={experience.logo} alt="" />
+			<div>
+				<h2>{experience.title}</h2>
+				<svelte:component this={experience.component} />
+			</div>
+		</div>
+	{/each}
+</div>

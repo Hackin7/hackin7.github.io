@@ -31,7 +31,7 @@ export const experiences = Object.entries(
 			filepath,
 			globEntry: JSON.stringify(globEntry),
 			// generate the slug from the file path
-			slug: parse(filepath).name,
+			slug: parse(filepath).name
 			//component: import(filepath).default
 		};
 	})
