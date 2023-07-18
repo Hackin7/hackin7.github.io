@@ -4,14 +4,14 @@
 	import Tag, { tagCat, tagPriority, tagSort } from '../../components/Tag.svelte';
 	import ExpandContent from '../../components/ExpandContent.svelte';
 	export let data: PageServerData;
-	/*let content = null;                                                       import("../../../src/content/experiences/education/cchy.md").then((x)=>{                                                                                        content= x.default;                                                 });*/ let experiences =
-		data.experiences;
+	/*let content = null;                                                       import("../../../src/content/experiences/education/cchy.md").then((x)=>{                                                                                        content= x.default;                                                 });*/ 
+	let experiences = data.experiences;
 	let prep = async () => {
 		let components = [];
 		for (let i in data.experiences) {
 			let item = data.experiences[i];
 			let filepath = '../../..' + item.filepath;
-			let component = await import(filepath);
+			let component = await import(`../../content/experiences/${item.slug}.md`); //filepath);
 			console.log(component);
 			components.push(component.default);
 		}

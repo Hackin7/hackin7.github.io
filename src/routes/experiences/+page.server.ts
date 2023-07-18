@@ -8,15 +8,15 @@ export const load: PageServerLoad = async () => {
 		let item = experiences[i];
 		let filepath = '../../..' + item.filepath;
 		//filepath = "../../../src/content/experiences/education/cchy.md";
-		let component = await import(filepath).default;
-		console.log(component);
-		components.push(component);
+		//let component = await import(filepath).default;
+		//console.log(component);
+		//components.push(component);
 	}
 	console.log(experiences);
 	let output = {
 		experiences: experiences.map((item, index, arr) => ({
 			...item,
-			component: components[index]
+		//	component: components[index]
 		}))
 		// make posts available on the client
 	};
