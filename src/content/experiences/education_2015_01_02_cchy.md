@@ -2,6 +2,8 @@
 title: Chung Cheng High Yishun
 role: Student
 start_date: '2015-02-01'
+end_date: '2018-12-30'
+type: 'education'
 description: t
 link: 'https://github.com/Hackin7/'
 tags: ['+']

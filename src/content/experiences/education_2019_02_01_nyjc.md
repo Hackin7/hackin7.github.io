@@ -4,6 +4,7 @@ role: Student
 logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/11/Nanyang_Junior_College_Logo.svg/1200px-Nanyang_Junior_College_Logo.svg.png'
 start_date: '2019-02-02'
 end_date: '2020-12-30'
+type: 'education'
 description: t
 link: 'https://github.com/Hackin7/'
 tags: ['+']

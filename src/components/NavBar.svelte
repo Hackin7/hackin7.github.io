@@ -4,8 +4,11 @@
 		{ name: 'About', link: '/about' },
 		{ name: 'Experiences', link: '/experiences' },
 		{ name: 'Blog', link: '/blog' },
+		{ name: 'Achievements', link: '/experiences/achievements'},
 		{ name: 'Projects', link: '/projects' }
 	];
+	let open = false;
+	function toggleMobileNavbar(){open=!open;}
 </script>
 
 <!-- https://tailwindui.com/components/application-ui/navigation/navbars -->
@@ -20,6 +23,7 @@
 					class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
 					aria-controls="mobile-menu"
 					aria-expanded="false"
+					on:click={toggleMobileNavbar}
 				>
 					<span class="sr-only">Open main menu</span>
 					<!--
@@ -83,6 +87,7 @@
 	</div>
 
 	<!-- Mobile menu, show/hide based on menu state. -->
+	{#if open}
 	<div class="sm:hidden" id="mobile-menu">
 		<div class="space-y-1 px-2 pt-2 pb-3">
 			<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
@@ -96,4 +101,6 @@
 			{/each}
 		</div>
 	</div>
+	{/if}
 </nav>
+
