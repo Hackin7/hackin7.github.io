@@ -21,3 +21,4 @@ Worked on
 3. CAD modeling inter PCB brackets with Fusion 360
 4. Sourcing for components and Liasing with sellers/PCB Manufacturers
    - Made Scripts & Excel Sheets to automate several processes (Eg. Gerber file generation, BOM)
+5. Helped debug & fix the tenlog issues - recurring MOSFET issue
