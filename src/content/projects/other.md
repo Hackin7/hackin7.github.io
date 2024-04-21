@@ -20,6 +20,7 @@ cover:
 A list of smaller scale projects
 
 Other Platforms
+
 1. https://devpost.com/Hackin7?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav
 2. https://hackin7.itch.io/
 

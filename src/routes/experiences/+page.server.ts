@@ -15,8 +15,8 @@ export const load: PageServerLoad = async () => {
 	console.log(experiences);
 	let output = {
 		experiences: experiences.map((item, index, arr) => ({
-			...item,
-		//	component: components[index]
+			...item
+			//	component: components[index]
 		}))
 		// make posts available on the client
 	};

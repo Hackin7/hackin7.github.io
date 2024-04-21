@@ -6,7 +6,7 @@ export const load: PageLoad = async ({ data }) => {
 	const component = await import(`../../../content/achievements.md`);
 
 	return {
-		post: {title: 'Achievements'}, // data.post,
+		post: { title: 'Achievements' }, // data.post,
 		component: component.default,
 		layout: {
 			fullWidth: true

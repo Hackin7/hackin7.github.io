@@ -11,6 +11,7 @@ cover: 'https://flowbite.com/docs/images/blog/image-4.jpg'
 ---
 
 Roles Taken
+
 1. Web Developer & Tech Maintainer: June 2021 - June 2022
 2. Tech Lead (Backend): July 2022 - May 2022
 3. Deputy Chief Technical Officer: May 2022 - Present

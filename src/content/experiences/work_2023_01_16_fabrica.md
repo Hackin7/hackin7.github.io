@@ -3,7 +3,7 @@ title: Fabrica AI
 role: Hardware Intern (Electronics)
 logo: 'https://www.goldbell.com.sg/wp-content/uploads/2022/12/fabrica-logo.png'
 start_date: '2023-02-19'
-end_date: '2023-04-30' 
+end_date: '2023-04-30'
 type: 'work'
 description: t
 link: 'https://github.com/Hackin7/'

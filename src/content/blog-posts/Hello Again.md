@@ -14,7 +14,6 @@ skills and projects! Some ideas I have include
 
 I'll probably be working on it on and off, maybe improvements once a week?
 
-
 Blogging is messy, and I'm going to restart everything and consolidate it
 
 1. https://makingbuildingstuff.blogspot.com/

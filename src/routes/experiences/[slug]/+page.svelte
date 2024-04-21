@@ -45,15 +45,15 @@
 		<!--<div class="flex flex-row m-auto">
 			<img class="rounded-t-lg object-contain w-24" src={data.post.logo}/>
 			<div class="m-3"></div>-->
-			<header class="">
-				<h1 class="text-4xl">{data.post.title}</h1>
-				<p>{data.post.start_date} to {data.post.end_date}</p>
-				<div>
-					{#each tagSort(data.post.tags) as tag}
-						<Tag name={tag} />
-					{/each}
-				</div>
-			</header>
+		<header class="">
+			<h1 class="text-4xl">{data.post.title}</h1>
+			<p>{data.post.start_date} to {data.post.end_date}</p>
+			<div>
+				{#each tagSort(data.post.tags) as tag}
+					<Tag name={tag} />
+				{/each}
+			</div>
+		</header>
 		<!--</div>-->
 		<br />
 

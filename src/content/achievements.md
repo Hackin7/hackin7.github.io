@@ -11,12 +11,13 @@ title: 'Achievements'
 [eLearnSecurity Junior Penetration Tester v1](https://verified.elearnsecurity.com/certificates/fcd248e1-aafe-43b0-8d2c-0083991f13bb)
 
 [Microsoft Certified: Azure Data Scientist Associate](https://www.credly.com/badges/2e814b3c-e1e6-4f13-9754-c28c2f992abf/public_url)
+
 <!-- ![](https://images.credly.com/size/680x680/images/5c8fca38-b0d2-49e5-9ad2-f3f8e79b327f/azure-data-scientist-associate-600x600.png) -->
 
 [Certfied SOLIDWORKS Associate in Mechanical Design (CSWA-MD)](https://cv.virtualtester.com/qr/?b=SLDWRKS&i=C-KWXJDBG6QL)
 
-
 Others
+
 1. Yamaha
    1. Fundamentals Grade 5
    2. Piano Grade 7 Distinction
@@ -41,7 +42,7 @@ Others
 <u>NYCP - JC CTF Team</u>
 
 1. Cyberthon 2020: 6th, Commendation Award
-2. STACK The Flags 2020: 13th,  Awesome Write-Ups Winner
+2. STACK The Flags 2020: 13th, Awesome Write-Ups Winner
 
 <u>NUS Greyhats</u>
 
@@ -58,7 +59,7 @@ Others
 Under Team NYCasuals
 
 1. RoboCup Singapore (7/4/2019): 1st Local
-1. RoboCup Sydney (International 7/7/2019): Best Presentation Award 
+1. RoboCup Sydney (International 7/7/2019): Best Presentation Award
 
 ## Olympiads
 
@@ -66,11 +67,11 @@ Under Team NYCasuals
 
 Competitive Programming
 
-1. National Olympiad of Informatics 2020: Bronze 
+1. National Olympiad of Informatics 2020: Bronze
 1. Australian Informatics Olympiad 2019: Bronze
 1. USA Computing Olympiad: Silver Category
 
-Mathematics 
+Mathematics
 
 1. Singapore Mathematical Olympiad 2020: Honourable Mention
-1. Australian Mathematics Competition 2019: Credit, 2020: Distinction 
+1. Australian Mathematics Competition 2019: Credit, 2020: Distinction

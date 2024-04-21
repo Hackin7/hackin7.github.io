@@ -4,7 +4,7 @@ date: '2024-02-28'
 description: IoT Monitoring of Washing Machines through a ESP32 and a Telegram Bot
 link: 'https://github.com/Hackin7/'
 tags: ['Deployed', 'Team Project', 'ESP32']
-cover:  
+cover:
   [
     '/projects/nus/nusc_laundrobot/1.jpg',
     '/projects/nus/nusc_laundrobot/2.jpg',

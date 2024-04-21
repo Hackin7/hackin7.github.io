@@ -4,11 +4,13 @@
 		{ name: 'About', link: '/about' },
 		{ name: 'Experiences', link: '/experiences' },
 		{ name: 'Blog', link: 'https://hackin7-blog.vercel.app/' },
-		{ name: 'Achievements', link: '/experiences/achievements'},
+		{ name: 'Achievements', link: '/experiences/achievements' },
 		{ name: 'Projects', link: '/projects' }
 	];
 	let open = false;
-	function toggleMobileNavbar(){open=!open;}
+	function toggleMobileNavbar() {
+		open = !open;
+	}
 </script>
 
 <!-- https://tailwindui.com/components/application-ui/navigation/navbars -->
@@ -88,19 +90,18 @@
 
 	<!-- Mobile menu, show/hide based on menu state. -->
 	{#if open}
-	<div class="sm:hidden" id="mobile-menu">
-		<div class="space-y-1 px-2 pt-2 pb-3">
-			<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-			{#each links as link, i}
-				<a
-					href={link.link}
-					class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-				>
-					{link.name}
-				</a>
-			{/each}
+		<div class="sm:hidden" id="mobile-menu">
+			<div class="space-y-1 px-2 pt-2 pb-3">
+				<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+				{#each links as link, i}
+					<a
+						href={link.link}
+						class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+					>
+						{link.name}
+					</a>
+				{/each}
+			</div>
 		</div>
-	</div>
 	{/if}
 </nav>
-
