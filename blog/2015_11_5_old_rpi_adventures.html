@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="../logo.jpg" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Hackin7</title>
+		<meta http-equiv="content-security-policy" content="">
+		<link href="../_app/immutable/assets/_layout-043d0016.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/start-1d2d9159.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-91060271.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-c95dd75e.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper-41c905a7.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-8414b5b0.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/stores-3e15bd4b.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/_layout.js-9cbb603b.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_layout-da46b06b.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/blog/_slug_/_page.svelte-af4fa397.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/blog/_slug_/_page.ts-c5754eca.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/dynamic-import-helper-be004503.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_page-fe71414b.js">
+	</head>
+	<body data-sveltekit-preload-data="hover" class="dark">
+		<!--bg-gray-700 text-white">-->
+		<div style="display: contents">
+
+
+
+
+<nav class="bg-gray-800"><div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8"><div class="relative flex h-16 items-center justify-between"><div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+				<button type="button" class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false"><span class="sr-only">Open main menu</span>
+					
+					<svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path></svg>
+					
+					<svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg></button></div>
+			<div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start"><a href="/" class="flex flex-shrink-0 items-center"><span class="text-white px-3 font-bold">Hackin7</span>
+					<img class="h-8 w-8 rounded-full" src="/logo.jpg" alt=""></a>
+				<div class="hidden sm:ml-6 sm:block"><div class="flex space-x-4">
+						
+						<a href="/about" class="hover:bg-gray-900 text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About
+							</a><a href="/experiences" class="hover:bg-gray-900 text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Experiences
+							</a><a href="/blog" class="hover:bg-gray-900 text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Blog
+							</a><a href="/experiences/achievements" class="hover:bg-gray-900 text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Achievements
+							</a><a href="/projects" class="hover:bg-gray-900 text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects
+							</a></div></div></div></div></div>
+
+	
+	</nav>
+
+<div class="text-center pt-10 content">
+
+
+<div><article><header><h1 class="text-4xl">Old Raspberry Pi Adventures</h1>
+			<p>2015-11-05</p></header>
+		<br>
+		
+		<div class="text-left prose max-w-none"><p>Posts were migrated from <a href="https://makingbuildingstuff.blogspot.com/" rel="nofollow">https://makingbuildingstuff.blogspot.com/</a></p>
+<h1>PiTFT Touchscreen, Pygame, Raspbian Jessie issues</h1>
+<p>Friday 11 December 2015</p>
+<p>Anybody had problems with Pygame on PiTFT on Raspbian Jessie? No? Well on Raspbian Jessie Pygame apparently works normally, except that the PiTFT touchscreen mouse doesnt work properly on Pygame. If you touch the touchscreen in the same spot a few times, you would find that the cursor just moves around randomly. That may have only been for my code, but apparently others are also having the same problems. Like in <a href="https://forums.adafruit.com/viewtopic.php?f=47&t=76169" rel="nofollow">https://forums.adafruit.com/viewtopic.php?f=47&amp;t=76169</a>.</p>
+<p>How do we fix the problem? If you are a Linux noob like me, I found some commands that will help</p>
+<p>Works as of 11/12/2015:</p>
+<pre class="language-bash"><!-- HTML_TAG_START --><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> libsmpeg0
+<span class="token builtin class-name">cd</span> /tmp
+<span class="token function">wget</span> http://archive.raspbian.org/raspbian/pool/main/libs/libsdl1.2/libsdl1.2debian_1.2.15-5_armhf.deb
+<span class="token function">sudo</span> dpkg <span class="token parameter variable">-i</span> libsdl1.2debian_1.2.15-5_armhf.deb
+<span class="token function">wget</span> http://archive.raspbian.org/raspbian/pool/main/p/pygame/python-pygame_1.9.1release+dfsg-10_armhf.deb
+<span class="token function">sudo</span> dpkg <span class="token parameter variable">-i</span> python-pygame_1.9.1release+dfsg-10_armhf.deb</code><!-- HTML_TAG_END --></pre>
+<p>I’m not very sure whether some of these downgrading commands are redundant, so it would be nice if  you can comment if you think so.</p>
+<p>Basically, There have been some problems with SDL or Pygame, so I downgraded these packages.</p>
+<p>That’s all. Thanks for reading.</p>
+<h1>Rotate Pitft Display without rebooting</h1>
+<p>Saturday 27 June 2015</p>
+<p>PiTFTs are awesome! But, to rotate the display you still need to modify the configuration files and reboot. I searched on the Internet for a while and I could not find a way to rotate the display on the fly without rebooting, until now.</p>
+<p>Works as of 25/6/15</p>
+<p>Just type these commands to rotate the display:</p>
+<pre class="language-bash"><!-- HTML_TAG_START --><code class="language-bash"><span class="token function">sudo</span> rmmod  fb_ili9340
+<span class="token function">sudo</span> rmmod fbtft_device
+<span class="token function">sudo</span> modprobe fbtft_device <span class="token assign-left variable">name</span><span class="token operator">=</span>pitft <span class="token assign-left variable">rotate</span><span class="token operator">=</span><span class="token number">90</span> <span class="token comment">#replace 90 with the rotation angles 0, 90, 180, 270</span></code><!-- HTML_TAG_END --></pre>
+<p>To recalibrate the touchscreen according to the rotation, just type this:</p>
+<pre class="language-bash"><!-- HTML_TAG_START --><code class="language-bash"><span class="token function">sudo</span> adafruit-pitft-touch-cal <span class="token parameter variable">-f</span></code><!-- HTML_TAG_END --></pre>
+<p>That’s all. Thanks for reading.</p>
+<h1>How to install xmonad on a Raspberry Pi with Arch Linux ARM (Quickly)</h1>
+<p>Tuesday 11 November 2014</p>
+<p>I got a Raspberry Pi and loved it, but i still could not figure out a quick and easy way to properly install Xmonad on Arch Linux ARM, until now. No, this does not require to cross compile xmonad on another computer, installing unneeded software and wasting storage space and time. Unfortunately, I was too lazy to install Xorg in the code below so install it manually yourself first.
+So here is how i did it.</p>
+<p>Copy the code below into your terminal.</p>
+<pre class="language-bash"><!-- HTML_TAG_START --><code class="language-bash">pacman <span class="token parameter variable">-S</span> gmp libxinerama packer base-devel
+packer <span class="token parameter variable">-S</span> dpkg
+<span class="token function">wget</span> http://archive.raspbian.org/raspbian/pool/main/x/xmonad/xmonad_0.11-9_armhf.deb
+dpkg --force-depends <span class="token parameter variable">-i</span> xmonad_0.11-9_armhf.deb
+<span class="token function">rm</span> xmonad_0.11-9_armhf.deb</code><!-- HTML_TAG_END --></pre>
+<p>This should work. That is all. Have Fun.</p></div></article>
+	<br>
+</div>
+</div>
+
+
+		<script type="module" data-sveltekit-hydrate="1m5z0n6">
+			import { start } from "../_app/immutable/start-1d2d9159.js";
+
+			start({
+				assets: "",
+				env: {},
+				target: document.querySelector('[data-sveltekit-hydrate="1m5z0n6"]').parentNode,
+				version: "1713685795269",
+				hydrate: {
+					node_ids: [0, 5],
+					data: [null,{type:"data",data:{post:{title:"Old Raspberry Pi Adventures",date:"2015-11-05",description:"Raspberry Pi Adventures from Primary School (P6) - Secondary School (Sec 1)",globEntry:"{\"default\":{},\"metadata\":{\"title\":\"Old Raspberry Pi Adventures\",\"date\":\"2015-11-05\",\"description\":\"Raspberry Pi Adventures from Primary School (P6) - Secondary School (Sec 1)\"}}",slug:"2015_11_5_old_rpi_adventures",next:{title:"Hello Again",date:"2023-02-19",description:"Reintroduction to my website",globEntry:"{\"default\":{},\"metadata\":{\"title\":\"Hello Again\",\"date\":\"2023-02-19\",\"description\":\"Reintroduction to my website\"}}",slug:"Hello Again"},previous:0}},uses:{params:["slug"],url:1}}],
+					form: null,
+					error: null
+				}
+			});
+		</script>
+	</div>
+	</body>
+</html>

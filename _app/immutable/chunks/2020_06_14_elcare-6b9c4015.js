@@ -1,0 +1,9 @@
+import{S as y,i as I,s as _,k as p,q as h,a as v,l as m,m as f,r as u,h as o,c as T,b as l,G as g,C as d}from"./index-91060271.js";function A(C){let t,r,s,a,i;return{c(){t=p("p"),r=h(`The app ELCare to help the elderly in emergencies.
+Through it’s various functionalities, such as the Watson Assistant and IoT monitoring,
+it can help identify when an elderly is in danger, and alert First Responders for timely treatment.
+Worked on the related IoT device, Computer Vision Based Fall Detection, Tone Detection (through IBM APIs),
+and the Backend for the Android app to access the data.`),s=v(),a=p("p"),i=h("Made for the SCDF X IBM Lifesavers’ Innovation Challenge: Call for Code 2020.")},l(e){t=m(e,"P",{});var n=f(t);r=u(n,`The app ELCare to help the elderly in emergencies.
+Through it’s various functionalities, such as the Watson Assistant and IoT monitoring,
+it can help identify when an elderly is in danger, and alert First Responders for timely treatment.
+Worked on the related IoT device, Computer Vision Based Fall Detection, Tone Detection (through IBM APIs),
+and the Backend for the Android app to access the data.`),n.forEach(o),s=T(e),a=m(e,"P",{});var c=f(a);i=u(c,"Made for the SCDF X IBM Lifesavers’ Innovation Challenge: Call for Code 2020."),c.forEach(o)},m(e,n){l(e,t,n),g(t,r),l(e,s,n),l(e,a,n),g(a,i)},p:d,i:d,o:d,d(e){e&&o(t),e&&o(s),e&&o(a)}}}const E={title:"ELCare",date:"2020-6-14",description:"Android App, Web Platform & IoT System for early detection & response to home emergencies (eg. elderly falls)",link:"https://github.com/Asienwald/ElCare",tags:["Event","Team Project","ESP8266","Flask","Python","IoT"],cover:["/projects/elcare/3.png","/projects/elcare/1.png","/projects/elcare/2.png"]};class P extends y{constructor(t){super(),I(this,t,null,A,_,{})}}export{P as default,E as metadata};
