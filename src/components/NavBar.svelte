@@ -3,7 +3,7 @@
 	let links = [
 		{ name: 'About', link: '/about' },
 		{ name: 'Experiences', link: '/experiences' },
-		{ name: 'Blog', link: '/blog' },
+		{ name: 'Blog', link: 'https://hackin7-blog.vercel.app/' },
 		{ name: 'Achievements', link: '/experiences/achievements'},
 		{ name: 'Projects', link: '/projects' }
 	];

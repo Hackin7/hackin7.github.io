@@ -1,6 +1,6 @@
 <script context="module">
 	let tagCategories = {
-		event: ['Team Project', 'Personal Project', 'Event'],
+		event: ['Team Project', 'Personal Project', 'Event', 'School Project'],
 		usage: ['Deployed', 'Award Winning', 'Highlight'],
 		type: [
 			'IoT',

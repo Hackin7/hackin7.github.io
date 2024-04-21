@@ -23,4 +23,4 @@ There are also other features, like
 1. A conversion tool, to convert binary to denary, hexadecimal or ASCII
 1. An ASCII Text editor, where you enter binary values representing the ASCII character into the screen, and
 1. A Main menu, where you enter binary values to access the different features and modes
-1. Lack of Sound, so you can play in class( It's a feature, not a bug)
+1. Lack of Sound, so you can play in class (It's a feature, not a bug)

@@ -4,7 +4,16 @@ date: '2018'
 description: Quick & Convenient Access to Exam Questions with Self Marking, Tracking, Progress Storage & Other Features
 link: 'https://github.com/Hackin7/ExamSnippet'
 tags: ['Deployed', 'Personal Project', 'Web', 'VueJS', 'MongoDB', 'Express']
-cover: 'https://flowbite.com/docs/images/blog/image-4.jpg'
+cover: [
+    '/projects/2013-2018/exam-snippets/4.png',
+    '/projects/2013-2018/exam-snippets/1.png',
+    '/projects/2013-2018/exam-snippets/2.png',
+    '/projects/2013-2018/exam-snippets/3.png',
+    '/projects/2013-2018/exam-snippets/5.png',
+    '/projects/2013-2018/exam-snippets/6.png',
+    '/projects/2013-2018/exam-snippets/7.png',
+    '/projects/2013-2018/exam-snippets/8.png'
+]
 ---
 
 An educational quiz made to provide (random) examination questions.

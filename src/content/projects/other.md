@@ -7,7 +7,7 @@ tags: ['App Dev', 'Machine Learning', 'Unity', 'Electronics']
 cover:
   [
     'https://cdn.hashnode.com/res/hashnode/image/upload/v1653495232105/OJT-yxEJF.png',
-    'https://cdn.discordapp.com/attachments/1023621584138801243/1125034542248493056/IMG-20180310-WA0005.jpg',
+    '/projects/raspberry-pi/rpi_7.jpg',
     'https://content.instructables.com/FYZ/QH0E/JRKYVSS7/FYZQH0EJRKYVSS7.jpg',
     'https://cdn.hashnode.com/res/hashnode/image/upload/v1653932947870/OS6SnMHgb.jpg',
     'https://www.youtube.com/embed/7OEoieKRzTw',
@@ -18,6 +18,10 @@ cover:
 ---
 
 A list of smaller scale projects
+
+Other Platforms
+1. https://devpost.com/Hackin7?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav
+2. https://hackin7.itch.io/
 
 **Machine Learning etc.**
 
@@ -59,7 +63,8 @@ A list of smaller scale projects
    1. https://www.instructables.com/DIY-Arcade-Joystick/
    1. https://hackin7.hashnode.dev/making-a-iidx-controller-in-4-hours
 1. Other
-   1. https://github.com/Hackin7/G08_BBCS - Won 1st place for BuildingBLOCS 2017Hackathon
+   1. https://github.com/Hackin7/G08_BBCS - Won 1st place for BuildingBLOCS 2017 Hackathon
+   2. https://devpost.com/software/handwriting-corrector-for-kids - Handwriting corrector for kids - IoT Servo controlled Arm
 
 **Computer Packages**
 
@@ -67,8 +72,7 @@ A list of smaller scale projects
 1. https://www.instructables.com/Pi-Package/
 1. I've also made various Raspberry Pi Tablets (with 7 inch and 10 inch touch screens)
 
-![](https://cdn.discordapp.com/attachments/1023621584138801243/1125034542248493056/IMG-20180310-WA0005.jpg)
-![](https://cdn.discordapp.com/attachments/1023621584138801243/1125034297787691161/IMG-20170414-WA0001.jpg)
+![Raspberry Pi Tablet](/projects/raspberry-pi/rpi_7.jpg)
 
 **Other**
 
@@ -77,4 +81,4 @@ A list of smaller scale projects
 1. 2017
    1. Homework folder attachment with built in lighting - made out of acrylic
 
-![Homework Folder](https://cdn.discordapp.com/attachments/1023621584138801243/1125034407036719225/IMG-20170816-WA0003.jpg)
+![Homework Folder](/projects/hw_folder.jpg)

@@ -1,12 +1,12 @@
 ---
 title: NSLobangz
 date: '2022-06'
-description: React Native App for NSmen with refresher guides and communication platforms for ease of mobilisation
+description: React Native App for NSmen with refresher guides and communication platforms for ease of mobilisation. Won 1st runner up for Best MVP for DSTA CodeExp 2022
 link: 'https://github.com/Vanessamae23/code_exp'
 tags: ['Award Winning', 'Team Project', 'Event', 'React Native']
 cover:
   [
-    'https://cdn.discordapp.com/attachments/982541608409002064/987274707613143080/unknown.png',
+    '/projects/nslobangz.png',
     'https://docs.google.com/presentation/d/e/2PACX-1vQGPiXSsMRll4TJ450QjNwwxKwUYuAZZFmBS4oF2SzQkIzqkQzaozh2Yr-WfkjsmNOMssnkTTWG70dc/embed?start=false&loop=false&delayms=3000'
   ]
 ---

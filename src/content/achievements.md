@@ -13,6 +13,16 @@ title: 'Achievements'
 [Microsoft Certified: Azure Data Scientist Associate](https://www.credly.com/badges/2e814b3c-e1e6-4f13-9754-c28c2f992abf/public_url)
 <!-- ![](https://images.credly.com/size/680x680/images/5c8fca38-b0d2-49e5-9ad2-f3f8e79b327f/azure-data-scientist-associate-600x600.png) -->
 
+[Certfied SOLIDWORKS Associate in Mechanical Design (CSWA-MD)](https://cv.virtualtester.com/qr/?b=SLDWRKS&i=C-KWXJDBG6QL)
+
+
+Others
+1. Yamaha
+   1. Fundamentals Grade 5
+   2. Piano Grade 7 Distinction
+   3. Electone Grade 6B
+2. ABRSM
+   1. Grade 5 Music Theory Distinction
 
 # Competitions
 
@@ -28,12 +38,20 @@ title: 'Achievements'
 
 ## Capture the Flag
 
+<u>NYCP - JC CTF Team</u>
+
+1. Cyberthon 2020: 6th, Commendation Award
+2. STACK The Flags 2020: 13th,  Awesome Write-Ups Winner
+
+<u>NUS Greyhats</u>
+
+1. ISITDTU CTF 2023 Finals: 5th, Consolation Prize, Attack Defence
+
+<u>Others</u>
+
 1. DSTA Cyber Defenders Discovery Camp 2019: Bronze
 2. Cyber Youth Singapore Camp 2019 CTF: 6th
-3. Cyberthon 2020: 6th, Commendation Award
-4. Whitehacks 2020, 2021
-5. STACK The Flags 2020: 13th,  Awesome Write-Ups Winner
-6. CSA-Elastic Threat Hunting Challenge 2021: Finalist, Solved 19/27 challenges despite never using/learning about Elastic Security
+3. CSA-Elastic Threat Hunting Challenge 2021: Finalist, Solved 19/27 challenges despite never using/learning about Elastic Security
 
 ## Robotics
 

@@ -13,3 +13,12 @@ skills and projects! Some ideas I have include
 3. Interactive CV - Linking to actual projects
 
 I'll probably be working on it on and off, maybe improvements once a week?
+
+
+Blogging is messy, and I'm going to restart everything and consolidate it
+
+1. https://makingbuildingstuff.blogspot.com/
+2. https://medium.com/@zunmun
+3. https://dev.to/hackin7
+4. https://hackin7.hashnode.dev/
+5. https://zunmun.substack.com
