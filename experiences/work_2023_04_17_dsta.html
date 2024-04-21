@@ -7,7 +7,7 @@
 		<title>Hackin7</title>
 		<meta http-equiv="content-security-policy" content="">
 		<link href="../_app/immutable/assets/_layout-043d0016.css" rel="stylesheet">
-		<link rel="modulepreload" href="../_app/immutable/start-3458f140.js">
+		<link rel="modulepreload" href="../_app/immutable/start-4de4b841.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/index-91060271.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-c95dd75e.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper-41c905a7.js">
@@ -17,9 +17,9 @@
 		<link rel="modulepreload" href="../_app/immutable/chunks/_layout-da46b06b.js">
 		<link rel="modulepreload" href="../_app/immutable/components/pages/experiences/_slug_/_page.svelte-e3be5c0e.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/Tag-a6c86380.js">
-		<link rel="modulepreload" href="../_app/immutable/modules/pages/experiences/_slug_/_page.ts-5f6c8998.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/experiences/_slug_/_page.ts-407414c1.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/dynamic-import-helper-be004503.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/_page-f16a7b24.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_page-f87e62c9.js">
 	</head>
 	<body data-sveltekit-preload-data="hover" class="dark">
 		<!--bg-gray-700 text-white">-->
@@ -52,9 +52,9 @@
 
 
 <div><article>
-			<header class=""><h1 class="text-4xl">DSTA Internship</h1>
-				<p>2023-04-17 to 2023-08-04</p>
-				<div><div class="text-sm inline-flex items-center font-bold leading-sm uppercase 
+		<header class=""><h1 class="text-4xl">DSTA Internship</h1>
+			<p>2023-04-17 to 2023-08-04</p>
+			<div><div class="text-sm inline-flex items-center font-bold leading-sm uppercase 
     px-3 py-1 bg-amber-300 text-gray-800 rounded-full my-1 capitalize mr-1">AWS</div><div class="text-sm inline-flex items-center font-bold leading-sm uppercase 
     px-3 py-1 bg-amber-300 text-gray-800 rounded-full my-1 capitalize mr-1">Python</div><div class="text-sm inline-flex items-center font-bold leading-sm uppercase 
     px-3 py-1 bg-amber-300 text-gray-800 rounded-full my-1 capitalize mr-1">C++</div><div class="text-sm inline-flex items-center font-bold leading-sm uppercase 
@@ -67,40 +67,40 @@
 
 				</div>
 
-			<p>Worked on the Sensor Systems in the Drone Versus Drone Project. The Sensor Systems mainly include 2 smartphones streaming their camera feed to a Computer. The computer then then triangulates the drone’s position to be viewed on a C2 system. </p>
-<p>My main work involves </p>
-<ol><li>Migrating video analytics processing to the cloud EC2 Instances, and linking devices together over the Internet using Wireguard &amp; AWS IoT Core.  </li>
-<li>Improved the android app for video streaming. Developed tools such as a drone deployment calculator to assist in deploying &amp; Testing the setup. </li>
-<li>Modified an off the shelf Gimbal to be remotely controlled through BLE or USB Serial with an Arduino. Made it turn to our desired bearing with the help of the Phone’s Compass. </li>
-<li>Experimented with ways to improve performance, such as tiling of the video feed, improving the video pipeline through FFMpeg options and more. </li>
-<li>Tested improvements multiple times in outfield conditions. Learnt about basic operation of a drone, as well as safety procedures. </li></ol>
+			<p>Worked on the Sensor Systems in the Drone Versus Drone Project. The Sensor Systems mainly include 2 smartphones streaming their camera feed to a Computer. The computer then then triangulates the drone’s position to be viewed on a C2 system.</p>
+<p>My main work involves</p>
+<ol><li>Migrating video analytics processing to the cloud EC2 Instances, and linking devices together over the Internet using Wireguard &amp; AWS IoT Core.</li>
+<li>Improved the android app for video streaming. Developed tools such as a drone deployment calculator to assist in deploying &amp; Testing the setup.</li>
+<li>Modified an off the shelf Gimbal to be remotely controlled through BLE or USB Serial with an Arduino. Made it turn to our desired bearing with the help of the Phone’s Compass.</li>
+<li>Experimented with ways to improve performance, such as tiling of the video feed, improving the video pipeline through FFMpeg options and more.</li>
+<li>Tested improvements multiple times in outfield conditions. Learnt about basic operation of a drone, as well as safety procedures.</li></ol>
 <hr>
 <h1>Breakdown of the things I did</h1>
 <p>Networking</p>
-<ol><li>Handled RTSP, Amazon Kinesis Video Streams for streaming data<ul><li>Attempted to improve KVS latency through Retrieving the HLS link and handling it with FFMpeg </li></ul></li>
+<ol><li>Handled RTSP, Amazon Kinesis Video Streams for streaming data<ul><li>Attempted to improve KVS latency through Retrieving the HLS link and handling it with FFMpeg</li></ul></li>
 <li>Handled ZMQ and AWS IoT Core for sending Metadata</li>
-<li>Experimented and Used SSH Tunneling for connecting devices over the Internet, as well as AWS IoT Core Tunneling </li>
-<li>Set up a Wireguard VPN on AWS EC2 to connect devices together and send information over the Internet. VPN was used for a demonstration of the system to the potential users. </li>
-<li>Other SysAdmin stuff (configuring scripts to run on boot up, setting up EC2 Instances with a bastion host, key rotation etc.) </li></ol>
+<li>Experimented and Used SSH Tunneling for connecting devices over the Internet, as well as AWS IoT Core Tunneling</li>
+<li>Set up a Wireguard VPN on AWS EC2 to connect devices together and send information over the Internet. VPN was used for a demonstration of the system to the potential users.</li>
+<li>Other SysAdmin stuff (configuring scripts to run on boot up, setting up EC2 Instances with a bastion host, key rotation etc.)</li></ol>
 <p>Application Development</p>
-<ol><li>Improved the Android app for video streaming <ul><li>Added support for AWS IoT Core for sending metadata, as well as improved the metadata format to support more features such as dynamic FOV calculation, location Data etc. </li>
+<ol><li>Improved the Android app for video streaming<ul><li>Added support for AWS IoT Core for sending metadata, as well as improved the metadata format to support more features such as dynamic FOV calculation, location Data etc.</li>
 <li>Added support to KVS for video streaming, as well as implemented features for KVS Camera streaming such as zoom</li>
 <li>Implemented some features, such as zoom, resolution, and starting/stopping stream to be controlled over ZMQ</li></ul></li>
 <li>Developed a simple deployment calculator in Python tkinter<ul><li>calculates locations on where to fly the drone for easy testing (calculation not fully done by me), and displays it on a map</li>
 <li>allows for easy testing of experiments with the video analytics algorithm</li></ul></li>
-<li>Assisted in developing the more user friendly control Interface (Flutter) <ul><li>Gave suggestions for the architecture</li>
+<li>Assisted in developing the more user friendly control Interface (Flutter)<ul><li>Gave suggestions for the architecture</li>
 <li>Developed the backend interfaced with ZQM to control the Video Analytics Software</li>
 <li>UI tweaks to support mobile view</li></ul></li></ol>
 <p>Electronics</p>
 <ol><li>Did some simple Electronics Soldering, testing and Debugging of components on the drone<ul><li>most notably, assisted with serial communications, speaker</li></ul></li>
-<li>Modified an off the shelf Gimbal to be remotely controlled through BLE or USB Serial. <ul><li>Wrote a simple python script that connects to the Arduino over USB Serial to turn the Gimbal to a certain bearing based on the Phone’s compass value </li></ul></li></ol>
+<li>Modified an off the shelf Gimbal to be remotely controlled through BLE or USB Serial.<ul><li>Wrote a simple python script that connects to the Arduino over USB Serial to turn the Gimbal to a certain bearing based on the Phone’s compass value</li></ul></li></ol>
 <p>3D Modelling</p>
 <ol><li>3D Modelled &amp; Printed a simple mount to prevent phone tripod clamps from pressing on the Pixel 7 Pro’s Volume Buttons</li>
 <li>3D Modelled &amp; Printed Dastan</li></ol>
 <p>Others</p>
 <ol><li>Experimented with cropping (and by extension, tiling) of video streams to improve performance of video analytics</li>
 <li>Dockerisation of Video Analytics code</li>
-<li>Experimented with using Unity to more accurately test video analytics code. </li></ol></div>
+<li>Experimented with using Unity to more accurately test video analytics code.</li></ol></div>
 
 		<br>
 
@@ -111,14 +111,14 @@
 </div>
 
 
-		<script type="module" data-sveltekit-hydrate="13kq4i9">
-			import { start } from "../_app/immutable/start-3458f140.js";
+		<script type="module" data-sveltekit-hydrate="hw26m0">
+			import { start } from "../_app/immutable/start-4de4b841.js";
 
 			start({
 				assets: "",
 				env: {},
-				target: document.querySelector('[data-sveltekit-hydrate="13kq4i9"]').parentNode,
-				version: "1713700139298",
+				target: document.querySelector('[data-sveltekit-hydrate="hw26m0"]').parentNode,
+				version: "1713700310033",
 				hydrate: {
 					node_ids: [0, 8],
 					data: [null,{type:"data",data:{project:{title:"DSTA Internship",start_date:"2023-04-17",end_date:"2023-08-04",logo:"https:\u002F\u002Fwww.dsta.gov.sg\u002Fimages\u002Fdefault-source\u002Frevamp\u002Fdsta_logoea8a31700a1d6b0c895eff0000f6c7a3.svg?sfvrsn=1f975adf_2",type:"work",description:"t",link:"https:\u002F\u002Fgithub.com\u002FHackin7\u002F",tags:["AWS","Python","C++","Networking"],cover:"https:\u002F\u002Fflowbite.com\u002Fdocs\u002Fimages\u002Fblog\u002Fimage-4.jpg",filepath:"\u002Fsrc\u002Fcontent\u002Fexperiences\u002Fwork_2023_04_17_dsta.md",globEntry:"{\"default\":{},\"metadata\":{\"title\":\"DSTA Internship\",\"start_date\":\"2023-04-17\",\"end_date\":\"2023-08-04\",\"logo\":\"https:\u002F\u002Fwww.dsta.gov.sg\u002Fimages\u002Fdefault-source\u002Frevamp\u002Fdsta_logoea8a31700a1d6b0c895eff0000f6c7a3.svg?sfvrsn=1f975adf_2\",\"type\":\"work\",\"description\":\"t\",\"link\":\"https:\u002F\u002Fgithub.com\u002FHackin7\u002F\",\"tags\":[\"AWS\",\"Python\",\"C++\",\"Networking\"],\"cover\":\"https:\u002F\u002Fflowbite.com\u002Fdocs\u002Fimages\u002Fblog\u002Fimage-4.jpg\"}}",slug:"work_2023_04_17_dsta"}},uses:{params:["slug"],url:1}}],
