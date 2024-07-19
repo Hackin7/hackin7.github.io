@@ -1,6 +1,6 @@
 ---
 title: ExamSnippets
-date: '2018'
+date: '2018-06'
 description: Quick & Convenient Access to Exam Questions with Self Marking, Tracking, Progress Storage & Other Features
 link: 'https://github.com/Hackin7/ExamSnippet'
 tags: ['Deployed', 'Personal Project', 'Web', 'VueJS', 'MongoDB', 'Express']
