@@ -40,6 +40,7 @@ You can preview the production build with `npm run preview`.
 # Publish to Github Pages
 
 ```
+npm run build
 touch build/.nojekyll
 gh-pages -d build/ -t true
 ```
