@@ -7,6 +7,7 @@ tags: ['Highlight', 'School Project', 'Verilog', 'FPGA', 'Python', 'Team Project
 cover:
   [
     'https://www.youtube.com/embed/0e2oBM38wi0?si=rsnWfaBFpLUy_0vY',
+    'https://www.youtube.com/embed/x5CZiD2ANEQ?si=GXmBcyvr9WMuFunI',
     '/projects/ee2026-finance-bros/architecture.png',
     '/projects/ee2026-finance-bros/project.png'
   ]
