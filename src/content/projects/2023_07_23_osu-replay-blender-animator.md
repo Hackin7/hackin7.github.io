@@ -11,13 +11,11 @@ cover:
     '/projects/osu-replay-blender-animator/2.png',
     '/projects/osu-replay-blender-animator/4.png',
     '/projects/osu-replay-blender-animator/5.png',
-    '/projects/osu-replay-blender-animator/1.png',
+    '/projects/osu-replay-blender-animator/1.png'
   ]
 ---
 
 Converts osu replays into Blender Basic Animations.
 
-This is the video I animated with it: 
+This is the video I animated with it:
 [Link](https://www.youtube.com/shorts/dOX0Dy5QdwU)
-
-
