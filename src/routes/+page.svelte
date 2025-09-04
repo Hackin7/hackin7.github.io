@@ -17,6 +17,13 @@
 <br />
 
 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+	<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow"><a href="projects/2025_06_26_greymechaarmy"><img class="rounded-t-lg object-cover w-full aspect-[9/5]" src="/projects/greymechaarmy/1.jpg" alt=""> <div class="p-5"><h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">GreyMecha/Army</h5> <div class="text-sm inline-flex items-center font-bold leading-sm uppercase 
+    px-3 py-1 bg-red-300 text-gray-800 rounded-full my-1 capitalize mr-1">Deployed</div><!--<Tag>--><div class="text-sm inline-flex items-center font-bold leading-sm uppercase 
+    px-3 py-1 bg-amber-300 text-gray-800 rounded-full my-1 capitalize mr-1">RP2350</div><!--<Tag>--><div class="text-sm inline-flex items-center font-bold leading-sm uppercase 
+    px-3 py-1 bg-amber-300 text-gray-800 rounded-full my-1 capitalize mr-1">FPGA</div><!--<Tag>--> <p class="mb-3 font-normal text-gray-700">GreyCTF 2025 Finals PCB Badge with Animations, a 25k LUT FPGA, and CTF Challenges involving race conditions and digital logic</p></div></a></div>
+
+
 	<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
 		<a href="projects/2024_02_28_nusc_laundrobot"
 			><img
@@ -50,47 +57,9 @@
 				<p class="mb-3 font-normal text-gray-700">
 					IoT Monitoring of Washing Machines through a ESP32 and a Telegram Bot
 				</p>
-			</div></a
-		>
+			</div></a>
 	</div>
 
-	<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
-		<a href="projects/techpals-s2-led-matrix"
-			><img
-				class="rounded-t-lg object-cover w-full aspect-[9/5]"
-				src="/projects/techpals/techpals-s2-led-matrix.png"
-				alt=""
-			/>
-			<div class="p-5">
-				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Footercize</h5>
-				<div
-					class="text-sm inline-flex items-center font-bold leading-sm uppercase 
-    px-3 py-1 bg-red-300 text-gray-800 rounded-full my-1 capitalize mr-1"
-				>
-					Deployed
-				</div>
-				<!--<Tag>-->
-				<div
-					class="text-sm inline-flex items-center font-bold leading-sm uppercase 
-    px-3 py-1 bg-blue-300 text-gray-800 rounded-full my-1 capitalize mr-1"
-				>
-					Electronics
-				</div>
-				<!--<Tag>-->
-				<div
-					class="text-sm inline-flex items-center font-bold leading-sm uppercase 
-    px-3 py-1 bg-amber-300 text-gray-800 rounded-full my-1 capitalize mr-1"
-				>
-					Microbit
-				</div>
-				<!--<Tag>-->
-				<p class="mb-3 font-normal text-gray-700">
-					Pressing on the foot press would bloom a flower on the LED Matrix, motivating the Elderly
-					to Exercise.
-				</p>
-			</div></a
-		>
-	</div>
 
 	<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
 		<a href="projects/nslobangz"
