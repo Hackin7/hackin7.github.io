@@ -1,5 +1,5 @@
 ---
-title: EE2026 Project
+title: EE2026 Finance Bros
 date: '2024-04-06'
 description: FPGA Project using the Basys 3 FPGA board.
 link: 'https://github.com/Hackin7/EE2026-Finance-Bros/blob/main/Guides/S1_04_ALAM.AHMED_CHAN.ZUN_LOW.TJUN_SPARSH_User_Guide_Report.pdf'

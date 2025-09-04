@@ -83,3 +83,33 @@ Other Platforms
    1. Homework folder attachment with built in lighting - made out of acrylic
 
 ![Homework Folder](/projects/hw_folder.jpg)
+
+
+**List of School Projects**
+
+Most of the projects are small/ done before but the important ones are highlighted on my website
+
+1. Y1S1
+   1. CG1111A Robot
+   2. EG1311 Robot
+   3. CS1010 KNN Digits Classifer
+2. Y1S2
+   1. CG2111A Robot
+   2. EE2026 Project
+3. Y2S1
+   1. CS2113 WheresMyMoney Java CLI App
+   2. CG2028 Optimised Assembly Code
+   3. CS3243 AI Projects
+      - Maze Solver using Dijkstra/ A*
+      - Hill Climbing Algorithm
+      - Constraint Search Problem for Math Solver
+      - MinMax Algorithm to play (a toy version of) Chess
+   4. CS2102 Database Design
+4. Y2S2
+   1. EE4204 Lab UDP File Transmission
+   2. EE4218 MNIST Accelerator Project
+   3. CG2271 RTOS Robot
+      - [Youtube Video](https://www.youtube.com/watch?v=Q4rmSh9GYwY)
+   4. CG2023 Communications project
+   5. EE4415 FP8 Pipelined Adder
+
