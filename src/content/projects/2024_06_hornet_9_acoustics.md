@@ -6,19 +6,19 @@ link: ''
 tags: ['STM32', 'Altium', 'C++']
 cover:
   [
-      'https://www.youtube.com/embed/FN5eDfjWPFo?si=UTK4ZLzU-uXgoMBx',
-      '/projects/hornet_9_acoustics/1.jpeg', 
-      '/projects/hornet_9_acoustics/2.png', 
-      '/projects/hornet_9_acoustics/3.jpeg', 
+    'https://www.youtube.com/embed/FN5eDfjWPFo?si=UTK4ZLzU-uXgoMBx',
+    '/projects/hornet_9_acoustics/1.jpeg',
+    '/projects/hornet_9_acoustics/2.png',
+    '/projects/hornet_9_acoustics/3.jpeg',
 
-      '/projects/hornet_9_acoustics/10.jpeg', 
-      '/projects/hornet_9_acoustics/11.jpeg', 
-      '/projects/hornet_9_acoustics/12.jpeg', 
-      '/projects/hornet_9_acoustics/13.jpeg', 
-      '/projects/hornet_9_acoustics/14.jpeg', 
-      '/projects/hornet_9_acoustics/15.jpeg', 
-      '/projects/hornet_9_acoustics/16.jpeg', 
-      '/projects/hornet_9_acoustics/17.jpeg', 
+    '/projects/hornet_9_acoustics/10.jpeg',
+    '/projects/hornet_9_acoustics/11.jpeg',
+    '/projects/hornet_9_acoustics/12.jpeg',
+    '/projects/hornet_9_acoustics/13.jpeg',
+    '/projects/hornet_9_acoustics/14.jpeg',
+    '/projects/hornet_9_acoustics/15.jpeg',
+    '/projects/hornet_9_acoustics/16.jpeg',
+    '/projects/hornet_9_acoustics/17.jpeg'
   ]
 ---
 

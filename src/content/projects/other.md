@@ -84,7 +84,6 @@ Other Platforms
 
 ![Homework Folder](/projects/hw_folder.jpg)
 
-
 **List of School Projects**
 
 Most of the projects are small/ done before but the important ones are highlighted on my website
@@ -100,7 +99,7 @@ Most of the projects are small/ done before but the important ones are highlight
    1. CS2113 WheresMyMoney Java CLI App
    2. CG2028 Optimised Assembly Code
    3. CS3243 AI Projects
-      - Maze Solver using Dijkstra/ A*
+      - Maze Solver using Dijkstra/ A\*
       - Hill Climbing Algorithm
       - Constraint Search Problem for Math Solver
       - MinMax Algorithm to play (a toy version of) Chess
@@ -112,4 +111,3 @@ Most of the projects are small/ done before but the important ones are highlight
       - [Youtube Video](https://www.youtube.com/watch?v=Q4rmSh9GYwY)
    4. CG2023 Communications project
    5. EE4415 FP8 Pipelined Adder
-
