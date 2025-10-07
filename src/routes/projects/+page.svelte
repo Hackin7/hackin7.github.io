@@ -96,9 +96,9 @@
 	{/each}
 </div>
 
-<br/>
-<br/>
-<br/>
+<br />
+<br />
+<br />
 <!--
 <ul class="text-left text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white">
     {#each data.posts as post}
