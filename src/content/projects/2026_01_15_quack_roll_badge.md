@@ -26,5 +26,6 @@ cover:
 Hardware badge created for Hack & Roll 2026 using an ESP32-C3. Was the project manager, PCB designer, firmware coder (for the Badge (MicroPython) + the backup NFC firmware (Arduino))
 
 Links
+
 1. Github: https://github.com/nushackers/hnr26-badge-quacknroll
 2. Blog Post: https://hackin7-blog.vercel.app/posts/2026/2026-01-31-quack-and-roll/

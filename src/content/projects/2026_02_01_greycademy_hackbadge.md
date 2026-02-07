@@ -18,4 +18,3 @@ cover:
 ---
 
 Hackbadge created for Greycademy 2026.
-
