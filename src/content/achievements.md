@@ -14,7 +14,7 @@ CREST Practitioner Security Analyst (CPSA), CREST, January 2025 (expires January
 
 [eLearnSecurity Junior Penetration Tester v1](https://verified.elearnsecurity.com/certificates/fcd248e1-aafe-43b0-8d2c-0083991f13bb)
 
-[Microsoft Certified: Azure Data Scientist Associate](https://www.credly.com/badges/2e814b3c-e1e6-4f13-9754-c28c2f992abf/public_url) (expired February 2026)
+[Microsoft Certified: Azure Data Scientist Associate](https://www.credly.com/badges/2e814b3c-e1e6-4f13-9754-c28c2f992abf/public_url)
 
 <!-- ![](https://images.credly.com/size/680x680/images/5c8fca38-b0d2-49e5-9ad2-f3f8e79b327f/azure-data-scientist-associate-600x600.png) -->
 
