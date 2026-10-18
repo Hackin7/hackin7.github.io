@@ -39,20 +39,10 @@ You can preview the production build with `npm run preview`.
 
 # Publish to GitHub Pages
 
-Pushes to `main`, and manual runs of the **Deploy to GitHub Pages** workflow (`.github/workflows/deploy.yml`), install with `npm ci`, run `vite build`, add `build/.nojekyll`, and publish `build/` to the `gh-pages` branch. GitHub Pages serves that branch.
+Pushes to `main`, and manual runs of the **Deploy to GitHub Pages** workflow (`.github/workflows/deploy.yml`), build the site and deploy it with GitHub Pages Actions. The build job uses Node 22, `npm ci`, and `npm run build`, adds `build/.nojekyll`, and uploads `build/` with `actions/upload-pages-artifact`. The deploy job publishes that artifact with `actions/deploy-pages`.
 
-The workflow sets `HUSKY=0` so the `prepare` script (`husky install`) is skipped. A manual publish still uses the `deploy` script:
+`HUSKY=0` skips the `prepare` script (`husky install`).
 
-```bash
-npm run build
-npm run deploy
-```
+**Settings → Pages → Build and deployment → Source** must be **GitHub Actions**.
 
-That script runs `touch build/.nojekyll && gh-pages -d build -t true`.
-
-Before the first automatic deploy, check:
-
-- **Settings → Actions → General → Workflow permissions** is **Read and write permissions**. The workflow pushes `gh-pages` with `GITHUB_TOKEN`, which needs write access.
-- **Settings → Pages → Build and deployment → Source** is **Deploy from a branch**, branch `gh-pages`, folder `/`.
-
-Commits pushed with `GITHUB_TOKEN` do not start a Pages build. If a run is green and `gh-pages` moved but the live site did not, switch **Pages → Source** to **GitHub Actions** and publish with `actions/upload-pages-artifact` plus `actions/deploy-pages` (`permissions: pages: write` and `id-token: write`).
+The `gh-pages` branch is not the publishing source. `npm run deploy` still pushes a local `build/` to that branch (`touch build/.nojekyll && gh-pages -d build -t true`) and does not update the live site.

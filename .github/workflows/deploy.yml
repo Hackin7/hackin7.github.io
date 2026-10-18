@@ -6,19 +6,20 @@ on:
       - main
   workflow_dispatch:
 
-# Push build/ to the existing gh-pages branch. Pages stays on
-# "Deploy from a branch" (gh-pages / root); no Pages setting change.
+# Deploy the artifact with the official Pages actions. Pages source
+# must be "GitHub Actions" (Settings → Pages).
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
-# Overlapping runs would race on the gh-pages push. Cancel the older
-# run so only the latest commit is published.
+# Queue deploys instead of cancelling one that is already publishing.
 concurrency:
-  group: deploy-gh-pages
-  cancel-in-progress: true
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     env:
       # "prepare" runs `husky install`, which fails when git hooks
@@ -43,9 +44,23 @@ jobs:
       - name: Add .nojekyll
         run: touch build/.nojekyll
 
-      - name: Publish build/ to gh-pages
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
-          publish_branch: gh-pages
+          path: build
+          # v5 omits dotfiles by default. Keep build/.nojekyll in the artifact.
+          include-hidden-files: true
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
