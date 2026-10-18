@@ -1,0 +1,51 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+# Push build/ to the existing gh-pages branch. Pages stays on
+# "Deploy from a branch" (gh-pages / root); no Pages setting change.
+permissions:
+  contents: write
+
+# Overlapping runs would race on the gh-pages push. Cancel the older
+# run so only the latest commit is published.
+concurrency:
+  group: deploy-gh-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      # "prepare" runs `husky install`, which fails when git hooks
+      # cannot be set up. Skip it; the site build does not need hooks.
+      HUSKY: "0"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Add .nojekyll
+        run: touch build/.nojekyll
+
+      - name: Publish build/ to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          publish_branch: gh-pages
