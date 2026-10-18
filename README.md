@@ -43,6 +43,4 @@ Pushes to `main`, and manual runs of the **Deploy to GitHub Pages** workflow (`.
 
 `HUSKY=0` skips the `prepare` script (`husky install`).
 
-**Settings → Pages → Build and deployment → Source** must be **GitHub Actions**.
-
-The `gh-pages` branch is not the publishing source. `npm run deploy` still pushes a local `build/` to that branch (`touch build/.nojekyll && gh-pages -d build -t true`) and does not update the live site.
+**Settings → Pages → Build and deployment → Source** must be **GitHub Actions**. The `gh-pages` branch is not the publishing source.
