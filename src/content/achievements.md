@@ -61,6 +61,7 @@ Others
 2. Cyber Youth Singapore Camp 2019 CTF: 6th
 3. CSA-Elastic Threat Hunting Challenge 2021: Finalist, Solved 19/27 challenges despite never using/learning about Elastic Security
 4. DSTA Cyber Defenders Discovery Camp 2025: 11th Uni Category
+5. Singapore Cyber Conquest: 2nd Place
 
 ## Robotics
 
