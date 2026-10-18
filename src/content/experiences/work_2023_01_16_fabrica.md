@@ -1,8 +1,8 @@
 ---
 title: Fabrica AI
-role: Hardware Intern (Electronics)
+role: Hardware Engineering Intern
 logo: 'https://www.goldbell.com.sg/wp-content/uploads/2022/12/fabrica-logo.png'
-start_date: '2023-02-19'
+start_date: '2023-01-16'
 end_date: '2023-04-30'
 type: 'work'
 description: t
@@ -10,6 +10,8 @@ link: 'https://github.com/Hackin7/'
 tags: ['KiCAD', 'Fusion 360', 'Python', 'PlatformIO', 'Arduino']
 cover: 'https://flowbite.com/docs/images/blog/image-4.jpg'
 ---
+
+### Hardware Engineering Intern
 
 Worked on
 
