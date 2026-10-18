@@ -37,16 +37,10 @@ You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
 
-# Publish to Github Pages
+# Publish to GitHub Pages
 
-```
-npm run build
-touch build/.nojekyll
-gh-pages -d build/ -t true
-```
+Pushes to `main`, and manual runs of the **Deploy to GitHub Pages** workflow (`.github/workflows/deploy.yml`), build the site and deploy it with GitHub Pages Actions. The build job uses Node 22, `npm ci`, and `npm run build`, adds `build/.nojekyll`, and uploads `build/` with `actions/upload-pages-artifact`. The deploy job publishes that artifact with `actions/deploy-pages`.
 
-or
+`HUSKY=0` skips the `prepare` script (`husky install`).
 
-```
-npm run deploy
-```
+**Settings → Pages → Build and deployment → Source** must be **GitHub Actions**. The `gh-pages` branch is not the publishing source.
